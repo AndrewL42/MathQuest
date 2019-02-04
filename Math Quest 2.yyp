@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "11f958f0-ee12-4db7-b1e0-aa44e522f273",
+            "Value": {
+                "id": "066df553-e406-4252-90e5-4ab334f7a812",
+                "resourcePath": "tilesets\\t_SciFiTileSheet\\t_SciFiTileSheet.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "19b92f66-8d91-42e9-8c43-57c9a55c91a2",
             "Value": {
                 "id": "c7c9dc0b-43e0-43b0-bf0b-3df66119de38",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "a677bb04-18d3-4569-978f-6d5f5bebefd4",
+            "Value": {
+                "id": "b84758ab-e191-4d41-9c67-a7d1e096763e",
+                "resourcePath": "views\\a677bb04-18d3-4569-978f-6d5f5bebefd4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a746fbc9-cdc4-48a4-a742-cf5f912e3085",
             "Value": {
                 "id": "8dfb17ab-6f8e-4199-8896-1f1a36972ce0",
@@ -340,6 +356,14 @@
                 "id": "a5ae4a0e-9bee-46bf-983d-f7aae904f0a8",
                 "resourcePath": "views\\e79f2a6a-0da9-4f12-9f36-c052a4b2f931.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7f42666-d092-4dcd-bb0f-28c00cde948a",
+            "Value": {
+                "id": "0d4790d2-d6a8-4305-b101-1c79da970fef",
+                "resourcePath": "sprites\\spr_SciFiTileSheet\\spr_SciFiTileSheet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
