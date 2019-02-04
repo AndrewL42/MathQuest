@@ -14,10 +14,3 @@ global.dy = 0;
 motion_set(180, global.player_speed);
 
 
-/* TEST MERGE */
-/* HOW DOES IT WORK */
-
-/*Sup Nerd*/
-
-motion_set(180, global.player_speed);
-
