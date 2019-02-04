@@ -10,4 +10,6 @@ global.dx = -global.player_speed;
 global.dy = 0;
 */
 
+/*Sup Nerd*/
+
 motion_set(180, global.player_speed);
