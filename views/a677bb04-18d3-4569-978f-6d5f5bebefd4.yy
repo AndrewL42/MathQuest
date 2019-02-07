@@ -8,7 +8,8 @@
         "e7f42666-d092-4dcd-bb0f-28c00cde948a",
         "c493ddd4-a5d8-4a55-bb96-dd789c51d231",
         "565c23b3-4e98-44ff-8d49-3edf73bc527d",
-        "2eae09e4-8115-4b67-937a-8e0bcb1be70c"
+        "2eae09e4-8115-4b67-937a-8e0bcb1be70c",
+        "4f58ea0e-a4d0-4e6e-bb99-c98a028fbf5c"
     ],
     "filterType": "GMSprite",
     "folderName": "TileSheets",
