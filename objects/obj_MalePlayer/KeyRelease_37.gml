@@ -1,4 +1,4 @@
 /// @description Stop Left
 // You can write your code in this editor
 
-motion_set(180, 0);
+input_left = false;
