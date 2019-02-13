@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "10ccaa4b-ed13-4955-9f8b-e766663b3233",
-            "Value": {
-                "id": "5c2d0995-55dc-41ed-9795-b533565336fd",
-                "resourcePath": "views\\10ccaa4b-ed13-4955-9f8b-e766663b3233.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "11f958f0-ee12-4db7-b1e0-aa44e522f273",
             "Value": {
                 "id": "066df553-e406-4252-90e5-4ab334f7a812",
@@ -375,14 +367,6 @@
             }
         },
         {
-            "Key": "75774a07-484c-4694-81d4-111a60621fa6",
-            "Value": {
-                "id": "b5bf3668-e514-474d-bd68-b645f89c30d3",
-                "resourcePath": "views\\75774a07-484c-4694-81d4-111a60621fa6.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "77b040dc-bd83-4803-8e68-cc5540b08501",
             "Value": {
                 "id": "8ee73c82-d118-4f39-b193-bd7106343d16",
@@ -396,14 +380,6 @@
                 "id": "a11bbddf-c105-4ed4-8cbf-b13aeb142729",
                 "resourcePath": "scripts\\InitGlobal\\InitGlobal.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7e2e1f37-905f-4c74-8697-7560b965139e",
-            "Value": {
-                "id": "5d8e7c03-6139-431e-a6f6-fdb9c22193b2",
-                "resourcePath": "views\\7e2e1f37-905f-4c74-8697-7560b965139e.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -463,14 +439,6 @@
             }
         },
         {
-            "Key": "99923cf5-08e3-4afe-b78d-012ef596c6ee",
-            "Value": {
-                "id": "f585a912-e169-4161-b891-04ee850cb893",
-                "resourcePath": "views\\99923cf5-08e3-4afe-b78d-012ef596c6ee.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "99f9aa1d-a1e4-43fe-b6d5-14bd95c3a2f7",
             "Value": {
                 "id": "9252c7e0-26ea-46bf-b252-b60bbd99906c",
@@ -492,14 +460,6 @@
                 "id": "4f503ddc-e992-4b28-8113-d4946efe610b",
                 "resourcePath": "sprites\\spr_AdminButton\\spr_AdminButton.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a2ed970f-a19f-492f-92e5-878b52651224",
-            "Value": {
-                "id": "46246dc5-5d4e-4fa5-8ffe-d9480f967b03",
-                "resourcePath": "views\\a2ed970f-a19f-492f-92e5-878b52651224.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -547,14 +507,6 @@
             "Value": {
                 "id": "de4031a5-0059-4c24-9ade-82bb3adfd046",
                 "resourcePath": "views\\b61755d6-ac81-40f2-b70d-d098ac1b2788.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b91ee120-2d52-4777-b135-193e92d60398",
-            "Value": {
-                "id": "86a1989b-4948-4428-8653-4f2efe1731bd",
-                "resourcePath": "views\\b91ee120-2d52-4777-b135-193e92d60398.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -612,22 +564,6 @@
                 "id": "9713f298-28e6-4d0e-b74a-c920e2ced7bd",
                 "resourcePath": "sprites\\spr_MathQuest\\spr_MathQuest.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ddd7b300-3182-4276-b324-833896a84110",
-            "Value": {
-                "id": "07f4e887-fdc2-43b4-9e7d-84e012698b6b",
-                "resourcePath": "views\\ddd7b300-3182-4276-b324-833896a84110.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e6774f69-3b74-46ea-848e-487012d8befc",
-            "Value": {
-                "id": "505a23b6-b4f0-4ce2-8756-ddd92faf5165",
-                "resourcePath": "views\\e6774f69-3b74-46ea-848e-487012d8befc.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
