@@ -52,3 +52,7 @@ if (tilemap_get_at_pixel(tilemap, bbox_left, bbox_side + moveY) != 0) || (tilema
 y += moveY;
 
 
+//Half Block
+
+
+
