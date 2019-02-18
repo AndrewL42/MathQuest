@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1411539e-acb5-4cfd-8e4d-3e7853169248",
+            "Value": {
+                "id": "108f91e0-a79c-42cd-97b3-e6c4986efc82",
+                "resourcePath": "sounds\\sound_overworld\\sound_overworld.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "19b92f66-8d91-42e9-8c43-57c9a55c91a2",
             "Value": {
                 "id": "c7c9dc0b-43e0-43b0-bf0b-3df66119de38",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "4576f0cb-dc7d-48e9-8dac-d603c30ef4c9",
+            "Value": {
+                "id": "27bdf6ff-7a67-4900-9742-31753241c853",
+                "resourcePath": "views\\4576f0cb-dc7d-48e9-8dac-d603c30ef4c9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "45d7526b-14d8-4a2e-abfd-80ce87ea47dc",
             "Value": {
                 "id": "4b461912-3593-4b49-a713-99cd5ae602cf",
@@ -375,6 +391,14 @@
             }
         },
         {
+            "Key": "7bf11b53-1093-43c4-8fc6-a7c99a02450a",
+            "Value": {
+                "id": "a696b3a0-c346-4309-8a3b-3e1ee84c2a33",
+                "resourcePath": "views\\7bf11b53-1093-43c4-8fc6-a7c99a02450a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7d100403-73c0-4da9-a0a8-04c8b2dedd9b",
             "Value": {
                 "id": "a11bbddf-c105-4ed4-8cbf-b13aeb142729",
@@ -415,11 +439,35 @@
             }
         },
         {
+            "Key": "8e5a543e-3cf0-48ae-898c-85b4d36004d6",
+            "Value": {
+                "id": "4678442a-ccfa-44b3-b873-41733c210b10",
+                "resourcePath": "sprites\\spr_musicBox\\spr_musicBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ee9d8e5-f6d8-4010-ae54-e9506248b9e8",
+            "Value": {
+                "id": "07323ec6-7652-40a8-9a8c-d7dea3808f7f",
+                "resourcePath": "views\\8ee9d8e5-f6d8-4010-ae54-e9506248b9e8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "937e6161-7a9c-49bc-b762-061b108fb6f5",
             "Value": {
                 "id": "3d53d9c3-3fd1-4c0c-8ae3-ec0a71352417",
                 "resourcePath": "objects\\obj_gnomed\\obj_gnomed.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "942fb719-779f-4c2a-aff9-d5395f45e429",
+            "Value": {
+                "id": "34a608eb-1075-4c3f-bf7c-552c4654d2b3",
+                "resourcePath": "sounds\\sound_hoo\\sound_hoo.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -436,6 +484,14 @@
                 "id": "8f69274f-cc44-40bd-8969-d80682f5293f",
                 "resourcePath": "tilesets\\t_MedievalTileSet\\t_MedievalTileSet.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "99a7efbf-8628-477a-ac08-0d80af47f137",
+            "Value": {
+                "id": "d34d30cd-ed44-4435-8b90-3aaadc58225a",
+                "resourcePath": "objects\\obj_overworldMusic\\obj_overworldMusic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -511,6 +567,14 @@
             }
         },
         {
+            "Key": "bc55a1e8-8b9c-41c5-8bf0-7caee1bb91df",
+            "Value": {
+                "id": "d9c72355-3b53-4b20-8e48-a99c44c0afe3",
+                "resourcePath": "sounds\\sound_startMusic\\sound_startMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bf24a89a-9d5c-4afb-b875-0753680f354f",
             "Value": {
                 "id": "90e7a405-a365-4556-9b94-916e51d3caef",
@@ -564,6 +628,14 @@
                 "id": "9713f298-28e6-4d0e-b74a-c920e2ced7bd",
                 "resourcePath": "sprites\\spr_MathQuest\\spr_MathQuest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e32702ac-60d8-4f49-b92c-b0e73e6da427",
+            "Value": {
+                "id": "3572a6e0-2543-4098-8cfd-d72713f2ce62",
+                "resourcePath": "sounds\\sound_gnomed\\sound_gnomed.yy",
+                "resourceType": "GMSound"
             }
         },
         {
