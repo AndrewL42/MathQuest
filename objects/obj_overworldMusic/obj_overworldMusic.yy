@@ -1,38 +1,28 @@
 {
-    "id": "0c50859d-f5e6-4004-b7b0-3464da65a6c2",
+    "id": "99a7efbf-8628-477a-ac08-0d80af47f137",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_playButton",
+    "name": "obj_overworldMusic",
     "eventList": [
         {
-            "id": "05f5bbd9-5fb5-4599-83ed-89a8b97837e8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "0c50859d-f5e6-4004-b7b0-3464da65a6c2"
-        },
-        {
-            "id": "331d7a96-942e-4733-bac5-f9ce4a2c747a",
+            "id": "8766f16f-ec00-4041-aede-78afd868f3d6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 7,
-            "m_owner": "0c50859d-f5e6-4004-b7b0-3464da65a6c2"
+            "m_owner": "99a7efbf-8628-477a-ac08-0d80af47f137"
         },
         {
-            "id": "27b68d22-b82e-46ca-bff0-6994a95f6a03",
+            "id": "4e8756cc-487b-40bb-ae5a-8b01b953e785",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 5,
             "eventtype": 7,
-            "m_owner": "0c50859d-f5e6-4004-b7b0-3464da65a6c2"
+            "m_owner": "99a7efbf-8628-477a-ac08-0d80af47f137"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8298149f-5c37-407b-bcc2-b7074d8ec248",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
