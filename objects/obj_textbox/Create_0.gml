@@ -1,7 +1,9 @@
-/// @description 
+/// @description
 // You can write your code in this editor
 
-text = "Would you like to visit this world?";
+text = "Hello!!! Lets see how long this string is yo!"
 
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
+boxWidth = sprite_get_width(spr_TextBox)
+stringHeight = string_height(text)
+
+
