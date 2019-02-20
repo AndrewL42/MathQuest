@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "3e4de222-6209-44a4-b8a2-9b4f77a38536",
+            "Value": {
+                "id": "11310ed0-7ab8-4d88-8856-2ac752fe34cc",
+                "resourcePath": "sprites\\Xmarksthespot\\Xmarksthespot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45d7526b-14d8-4a2e-abfd-80ce87ea47dc",
             "Value": {
                 "id": "4b461912-3593-4b49-a713-99cd5ae602cf",
@@ -364,6 +372,14 @@
                 "id": "fc981bb3-4608-4e63-8536-1af5d5d268bd",
                 "resourcePath": "sprites\\spr_TopMidGrass\\spr_TopMidGrass.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "752e0b4a-7eb0-49ef-ac78-c90e76696e1b",
+            "Value": {
+                "id": "dca7d21b-6113-4caf-96a0-27bbb7846e63",
+                "resourcePath": "objects\\object15\\object15.yy",
+                "resourceType": "GMObject"
             }
         },
         {
