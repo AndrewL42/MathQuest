@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0a5d2754-0ee5-446f-a4f9-67e500bf4ed8",
+            "Value": {
+                "id": "0566644d-1e9a-4e17-9333-8f2912419880",
+                "resourcePath": "sounds\\sound_click\\sound_click.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0bae8e4b-b32f-471a-9354-863e38fb9cc9",
             "Value": {
                 "id": "ada085aa-2a90-4121-8a2d-db05e5ab68fc",
