@@ -546,7 +546,7 @@
             "Key": "8bcb08b4-c307-4f76-8efd-66a9779804b0",
             "Value": {
                 "id": "772dd5f4-4527-4b12-b335-4735a2134630",
-                "resourcePath": "rooms\\room_overworld22\\room_overworld22.yy",
+                "resourcePath": "rooms\\room_overworld\\room_overworld.yy",
                 "resourceType": "GMRoom"
             }
         },
