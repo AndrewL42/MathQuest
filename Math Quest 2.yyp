@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "3e4de222-6209-44a4-b8a2-9b4f77a38536",
+            "Value": {
+                "id": "9279dde7-8715-431a-9548-790fd1a1061d",
+                "resourcePath": "sprites\\Xmarksthespot\\Xmarksthespot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45d7526b-14d8-4a2e-abfd-80ce87ea47dc",
             "Value": {
                 "id": "4b461912-3593-4b49-a713-99cd5ae602cf",
@@ -386,7 +394,7 @@
             "Key": "579dd8c7-a1f9-4b0b-a567-7bfd4696b3f0",
             "Value": {
                 "id": "806b91ba-146f-46f6-8e0a-7a2c2366ec8f",
-                "resourcePath": "rooms\\room_overworld\\room_overworld.yy",
+                "resourcePath": "rooms\\Overworld2\\Overworld2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -463,6 +471,14 @@
             }
         },
         {
+            "Key": "752e0b4a-7eb0-49ef-ac78-c90e76696e1b",
+            "Value": {
+                "id": "ae90e338-6338-40ed-9ba5-75befecc6682",
+                "resourcePath": "objects\\object15\\object15.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "77b040dc-bd83-4803-8e68-cc5540b08501",
             "Value": {
                 "id": "8ee73c82-d118-4f39-b193-bd7106343d16",
@@ -524,6 +540,14 @@
                 "id": "dc96414b-adbe-48f2-b3a2-0c896fe2effe",
                 "resourcePath": "sprites\\spr_gnomed\\spr_gnomed.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8bcb08b4-c307-4f76-8efd-66a9779804b0",
+            "Value": {
+                "id": "772dd5f4-4527-4b12-b335-4735a2134630",
+                "resourcePath": "rooms\\room_overworld22\\room_overworld22.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
