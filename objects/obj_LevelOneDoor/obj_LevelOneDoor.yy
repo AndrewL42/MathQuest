@@ -1,28 +1,18 @@
 {
-    "id": "51649fe3-fa9b-45e7-b740-f23afb620f37",
+    "id": "1165540b-41ef-4f2d-8cb8-e8a3f6871c09",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_TextBox",
+    "name": "obj_LevelOneDoor",
     "eventList": [
         {
-            "id": "a2ae292e-ffba-4571-83c6-137eb6268f50",
+            "id": "4ad907dd-c957-41aa-a676-4dc1419be2da",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "51649fe3-fa9b-45e7-b740-f23afb620f37"
-        },
-        {
-            "id": "6ed4fe29-6859-4456-a999-8f3b55c91f75",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "51649fe3-fa9b-45e7-b740-f23afb620f37"
+            "eventtype": 3,
+            "m_owner": "1165540b-41ef-4f2d-8cb8-e8a3f6871c09"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e3ba1786-11f0-49a5-a2fd-16b203768b54",
+    "spriteId": "f48a8e6b-7630-4107-a082-0ded71dea473",
     "visible": true
 }
