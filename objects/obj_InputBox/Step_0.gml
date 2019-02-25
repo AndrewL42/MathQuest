@@ -1,4 +1,5 @@
 /// @description Take input
+global.password = "";
 
 scr_inputbox_restrict("!","[");
 
