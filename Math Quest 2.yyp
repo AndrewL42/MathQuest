@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0b025ea8-238a-418b-aa0e-b19430cf2607",
+            "Value": {
+                "id": "42c689d4-c73c-49bf-ad47-c63bf97938b2",
+                "resourcePath": "sprites\\spr_Sign\\spr_Sign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0bae8e4b-b32f-471a-9354-863e38fb9cc9",
             "Value": {
                 "id": "ada085aa-2a90-4121-8a2d-db05e5ab68fc",
@@ -220,6 +228,14 @@
                 "id": "4042a3db-a5f2-4ed2-bcf9-5a6f82bb56ed",
                 "resourcePath": "rooms\\room_start\\room_start.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "298cbae6-d655-4aea-9395-61a1bef4f841",
+            "Value": {
+                "id": "3ed859e1-afee-4380-966c-9158e90803f0",
+                "resourcePath": "objects\\obj_PortalDoor\\obj_PortalDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "51649fe3-fa9b-45e7-b740-f23afb620f37",
+            "Value": {
+                "id": "afebcfea-6c58-418b-8946-db4863e43c3d",
+                "resourcePath": "objects\\obj_TextBox\\obj_TextBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "565c23b3-4e98-44ff-8d49-3edf73bc527d",
             "Value": {
                 "id": "79be8142-c3e7-43a2-a10b-35d647e5773b",
@@ -452,6 +476,14 @@
                 "id": "5e42619c-aa19-4b9f-a095-479fafadb22d",
                 "resourcePath": "objects\\obj_LoginButton\\obj_LoginButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e305417-72f4-4943-9a52-cc896f912730",
+            "Value": {
+                "id": "812b6cb1-ccd9-4589-be07-5673b0a336cd",
+                "resourcePath": "sprites\\spr_PortalDoor\\spr_PortalDoor.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -540,6 +572,14 @@
                 "id": "6c2c68f6-994f-468e-9f81-acef37c98991",
                 "resourcePath": "sprites\\spr_PlayButton\\spr_PlayButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "863634e5-83a9-472d-9f2c-b6e624df11b9",
+            "Value": {
+                "id": "ab9bb586-168f-4dbb-b218-5a1cce3a3e82",
+                "resourcePath": "objects\\obj_Sign\\obj_Sign.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -820,6 +860,14 @@
                 "id": "3572a6e0-2543-4098-8cfd-d72713f2ce62",
                 "resourcePath": "sounds\\sound_gnomed\\sound_gnomed.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e3ba1786-11f0-49a5-a2fd-16b203768b54",
+            "Value": {
+                "id": "1ff346bb-6d5c-45dd-a9e1-fd4a204fe94a",
+                "resourcePath": "sprites\\spr_TextBox\\spr_TextBox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
