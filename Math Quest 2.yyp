@@ -511,14 +511,6 @@
             }
         },
         {
-            "Key": "579dd8c7-a1f9-4b0b-a567-7bfd4696b3f0",
-            "Value": {
-                "id": "806b91ba-146f-46f6-8e0a-7a2c2366ec8f",
-                "resourcePath": "rooms\\room_overworld\\room_overworld.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "5aec5be3-436a-4430-90a9-36404d685669",
             "Value": {
                 "id": "107f0e7e-267d-4adb-bd10-c60788547fd1",

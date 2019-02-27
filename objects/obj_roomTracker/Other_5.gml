@@ -1,2 +1,2 @@
 /// @description Room Tracker
-global.previous = currentRoom;
+global.previous = room;
