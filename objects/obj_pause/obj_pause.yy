@@ -1,18 +1,18 @@
 {
-    "id": "02865713-704a-42c9-9b37-32b59fa5a84f",
+    "id": "9f55ee7e-9380-47ae-a23e-f5822958b632",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_roomTracker",
+    "name": "obj_pause",
     "eventList": [
         {
-            "id": "7aed01f6-1bb9-4500-a08f-10d5c12ff37d",
+            "id": "191e0461-80d8-48e4-9d2f-ccb39cea5b9e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 5,
-            "eventtype": 7,
-            "m_owner": "02865713-704a-42c9-9b37-32b59fa5a84f"
+            "enumb": 27,
+            "eventtype": 9,
+            "m_owner": "9f55ee7e-9380-47ae-a23e-f5822958b632"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
