@@ -1,6 +1,9 @@
 /// @description Set global.up Camera
 // You can write your code in this editor
 
+x = global.xx;
+y = global.yy;
+
 camera = camera_create();
 
 var vm = matrix_build_lookat(x, y, -10, x, y, 0, 0, 1, 0);
