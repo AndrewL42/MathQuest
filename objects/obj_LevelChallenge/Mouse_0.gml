@@ -3,8 +3,8 @@
 
 switch(room) {
 	case (room_challengetemp):
-		global.xx = 426;
-		global.yy = 272;
+		global.xx = 424;
+		global.yy = 270;
 		room_goto(room_space);
 		break;
 	}
