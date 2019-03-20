@@ -1,6 +1,7 @@
 /// @description
 // You can write your code in this editor
 
+/*
 switch (room) {
 	case room_challengetemp:
 		global.questionX = irandom_range(0, 10);
@@ -9,6 +10,6 @@ switch (room) {
 		global.correctAnswer = false;
 		break;
 }
-
+*/
 
 

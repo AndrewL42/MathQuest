@@ -9,6 +9,7 @@ global.player_speed = 1.4;
 
 
 // Room Problems
+/*
 randomize() // to randomize the RNG
 
 global.questionX = 0;
@@ -20,4 +21,5 @@ roomCleared = false;
 roomTimer = 60;
 
 draw_set_font(fnt_basic);
+*/
 

@@ -31,7 +31,6 @@ timer++
 */
 
 
-/*
 if (timer >= 30) {
 	switch(room) {
 		case (room_space):
@@ -42,4 +41,3 @@ if (timer >= 30) {
 }
 timer++
 
-*/
