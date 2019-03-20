@@ -5,8 +5,8 @@ if (timer >= 30) {
 	switch(room) {
 		case (room_overworld):
 			room_goto(room_space);
-			global.xx = 182;
-			global.yy = 213;
+			global.xx = 190;
+			global.yy = 192;
 			break;
 		case (room_space):
 			room_goto(room_overworld);
