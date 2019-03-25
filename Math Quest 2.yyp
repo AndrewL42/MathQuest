@@ -338,7 +338,7 @@
             "Key": "2dd9a927-ccd1-4520-8042-fad24f0f1c26",
             "Value": {
                 "id": "e8b2e323-3caf-47dc-99c7-999eece6b337",
-                "resourcePath": "rooms\\room_credits\\room_credits.yy",
+                "resourcePath": "rooms\\room_gnomed\\room_gnomed.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1020,6 +1020,14 @@
                 "id": "d18fa083-c78d-4268-b21e-74b011c2f632",
                 "resourcePath": "views\\d385f9a1-cfcd-4bf2-bdcb-6e65bc9e80ad.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3f47173-12bc-4114-8377-7d8cd7b6a8f6",
+            "Value": {
+                "id": "88d5e584-eaee-4618-a8ab-68851f873da7",
+                "resourcePath": "rooms\\room_credits\\room_credits.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
