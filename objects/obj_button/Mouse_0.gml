@@ -6,4 +6,5 @@ if (answ == global.gameAnswer) {
 	global.correctAnswer = true
 } else {
 	global.correctAnswer = false
+	global.incorrect = true
 }

@@ -8,6 +8,7 @@ if (keyboard_check_pressed(vk_enter)) {
 		global.correctAnswer = true
 	} else {
 		global.correctAnswer = false
+		global.incorrect = true
 	}	
 }
 

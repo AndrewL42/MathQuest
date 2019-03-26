@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_gnome",
     "eventList": [
-        
+        {
+            "id": "c597e6b4-5ad3-457c-9bc1-52d4eec2e0c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "cfbfce3f-6193-4d7f-bbde-4be49f6724ac"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

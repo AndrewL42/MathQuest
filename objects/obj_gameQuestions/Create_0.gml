@@ -17,12 +17,14 @@ randomize() // to randomize the RNG
 
 global.questionX = 0;
 global.questionY = 0;
+global.questionZ = 0;
 global.userAnswer = 0;
 global.gameAnswer = 0;
 global.correctAnswer = false;
+global.incorrect = false;
+
 roomCleared = false;
 roomTimer = 60;
 
-draw_set_font(fnt_basic);
-
+draw_set_font(fnt_sans);
 

@@ -6,6 +6,9 @@ switch (room) {
 		if (global.correctAnswer == true) {
 			roomCleared = true
 		}
+		if (global.incorrect == true) {
+			roomCleared = true
+		}
 }
 
 
@@ -14,7 +17,7 @@ if (roomCleared == true and roomTimer <= 0) {
 	roomTimer = 60
 	roomCleared = false
 } else if (roomCleared == true) {
-	roomTimer--;	
+	roomTimer--;
 }
 
 

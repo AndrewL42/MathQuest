@@ -6,7 +6,8 @@ switch (room) {
 	case room_challengetemp:
 		global.questionX = irandom_range(0, 10);
 		global.questionY = irandom_range(0, 10);
-		global.gameAnswer = global.questionX + global.questionY;
+		global.questionZ = irandom_range(0, 10);
+		global.gameAnswer = global.questionX + global.questionY + global.questionZ;
 		global.correctAnswer = false;
 		break;
 }

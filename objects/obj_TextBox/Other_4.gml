@@ -3,7 +3,7 @@
 
 switch (room) {
 	case room_challengetemp:
-		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + "?"
+		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + " + " + string(global.questionZ)+ "?"
 		boxWidth = sprite_get_width(spr_TextBox)
 		stringHeight = string_height(text)
 		break;
