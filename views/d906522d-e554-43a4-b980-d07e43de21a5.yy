@@ -12,7 +12,8 @@
         "863634e5-83a9-472d-9f2c-b6e624df11b9",
         "02865713-704a-42c9-9b37-32b59fa5a84f",
         "9f55ee7e-9380-47ae-a23e-f5822958b632",
-        "30835ff3-0d2f-4108-aec8-961c4247423f"
+        "30835ff3-0d2f-4108-aec8-961c4247423f",
+        "6e9e902d-f094-40d1-8c68-f1dbef4cff2c"
     ],
     "filterType": "GMObject",
     "folderName": "Miscellaneous",

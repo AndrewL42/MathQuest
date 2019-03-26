@@ -1,8 +1,8 @@
 {
-    "id": "1411539e-acb5-4cfd-8e4d-3e7853169248",
+    "id": "3fd52f37-cec5-4169-be35-6255f17c4be5",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "sound_overworld",
+    "name": "sound_challenge",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "3fd52f37-cec5-4169-be35-6255f17c4be5",
+            "Value": {
+                "id": "80415e57-4c32-41d4-a9b6-22a9e1f8d2ca",
+                "resourcePath": "sounds\\sound_challenge\\sound_challenge.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4535d2dc-41bd-4302-89b8-6a40fd652930",
             "Value": {
                 "id": "b975f419-c4fb-49a7-85a0-8371396f98c2",
@@ -676,6 +684,14 @@
                 "id": "e12f14d4-44e0-42e6-b9f9-b44d33a7bceb",
                 "resourcePath": "sprites\\spr_MaleRight\\spr_MaleRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6e9e902d-f094-40d1-8c68-f1dbef4cff2c",
+            "Value": {
+                "id": "096be61a-c7ee-4e6e-8e45-180733040d4f",
+                "resourcePath": "objects\\obj_timer\\obj_timer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -970,7 +986,7 @@
             "Key": "b0d68fa0-94da-44d1-b379-e388a6e30687",
             "Value": {
                 "id": "02c771db-0ae4-4923-ab31-144f3cce5335",
-                "resourcePath": "rooms\\room_challengetemp\\room_challengetemp.yy",
+                "resourcePath": "rooms\\room_challengeAdd\\room_challengeAdd.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1047,6 +1063,14 @@
             }
         },
         {
+            "Key": "bd81871b-eb55-4090-97c2-151b4e7e539b",
+            "Value": {
+                "id": "961ce4a2-a22a-42c2-877d-3a66d89e654d",
+                "resourcePath": "rooms\\room_challengeSub\\room_challengeSub.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "bf24a89a-9d5c-4afb-b875-0753680f354f",
             "Value": {
                 "id": "90e7a405-a365-4556-9b94-916e51d3caef",
@@ -1107,6 +1131,14 @@
             "Value": {
                 "id": "79b6c72d-b99c-48f6-824d-8cb46976a2e2",
                 "resourcePath": "rooms\\room_pause\\room_pause.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d37f6cf8-a02d-4058-beed-92fba6acd12a",
+            "Value": {
+                "id": "88ef4f90-afb0-4d5d-bbac-956646bdae28",
+                "resourcePath": "rooms\\room_challengeResults\\room_challengeResults.yy",
                 "resourceType": "GMRoom"
             }
         },
