@@ -1,7 +1,7 @@
 /// @description
 // You can write your code in this editor
 x += (xTo - x) / 25;
-y += (yTo - y) / 25;
+y += (yTo - y) / 35;
 
 if (follow != noone) {
 	xTo = follow.x;

@@ -9,6 +9,6 @@ draw_text_transformed(room_width/2,(room_height/2), text, 1, 1, 0);
 if (room == room_challengeResults) {
 	draw_set_colour(c_yellow);
 	draw_text_transformed(room_width/2,(room_height/2)+50,string(global.count), 2, 2, 0);
-} else {
+} else if (room == room_challengeAdd or room == room_challengeSub) {
 	draw_text_transformed(900,90, "Score: " + string(global.count), 1, 1, 0);
 }

@@ -18,6 +18,12 @@ switch (room) {
 		}
 }
 
+if (room != room_challengeAdd and room != room_challengeSub) {
+	if (global.correctAnswer == true) {
+		roomCleared = true
+	}
+}
+
 
 if (roomCleared == true and roomTimer <= 0) {
 	room_restart()

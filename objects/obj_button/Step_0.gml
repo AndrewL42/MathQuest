@@ -12,5 +12,7 @@ if (keyboard_check_pressed(vk_enter)) {
 	}	
 }
 
-
+if (global.incorrect = true) {
+	timeWait = timeWait - 0.5
+}
 

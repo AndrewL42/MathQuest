@@ -17,5 +17,10 @@ switch (room) {
 		boxWidth = sprite_get_width(spr_TextBox)
 		stringHeight = string_height(text)
 		break;
+	case room_levelOne:
+		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY)
+		boxWidth = sprite_get_width(spr_TextBox)
+		stringHeight = string_height(text)
+		break;
 }
 

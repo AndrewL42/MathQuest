@@ -20,6 +20,8 @@ switch (room) {
 	case room_levelOne:
 		global.questionX = irandom_range(0, 10);
 		global.questionY = irandom_range(0, 10);
+		global.gameAnswer = global.questionX + global.questionY
+		global.correctAnswer = false;
 		
 }
 

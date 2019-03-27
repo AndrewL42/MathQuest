@@ -3,3 +3,4 @@
 
 draw_set_font(fnt_sans)
 
+timeWait = 30
