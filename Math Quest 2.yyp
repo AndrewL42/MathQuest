@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "5a4e9bc9-1f12-4a88-9a8a-edb7e37f0a55",
+            "Value": {
+                "id": "f08057ad-f8d9-4178-9d61-8ac4508948cd",
+                "resourcePath": "views\\5a4e9bc9-1f12-4a88-9a8a-edb7e37f0a55.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5aec5be3-436a-4430-90a9-36404d685669",
             "Value": {
                 "id": "107f0e7e-267d-4adb-bd10-c60788547fd1",
@@ -675,6 +683,14 @@
             "Value": {
                 "id": "47aeb509-a199-45b6-bcad-d48621bc742e",
                 "resourcePath": "views\\6aec25ef-0403-4884-baf5-e932deb5af2a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6bd6210c-72a5-4019-b60f-73c4610a0339",
+            "Value": {
+                "id": "3492852f-9ba5-4291-a5e1-f3e54c023e28",
+                "resourcePath": "views\\6bd6210c-72a5-4019-b60f-73c4610a0339.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1007,6 +1023,14 @@
             }
         },
         {
+            "Key": "b011fb99-b159-4f26-adf9-fb1b33b29d8a",
+            "Value": {
+                "id": "fe8ee65a-a0c9-412a-be8a-c1dec38338f1",
+                "resourcePath": "views\\b011fb99-b159-4f26-adf9-fb1b33b29d8a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b0d68fa0-94da-44d1-b379-e388a6e30687",
             "Value": {
                 "id": "02c771db-0ae4-4923-ab31-144f3cce5335",
@@ -1204,6 +1228,14 @@
                 "id": "88d5e584-eaee-4618-a8ab-68851f873da7",
                 "resourcePath": "rooms\\room_credits\\room_credits.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d7916ae7-1da7-46d7-bdef-353a59d7177d",
+            "Value": {
+                "id": "a85cc2f2-8393-487a-a808-c8bc9665b0ae",
+                "resourcePath": "scripts\\db_autosave\\db_autosave.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1430,7 +1462,8 @@
         "2c016c08-3335-4c1b-ac74-9f23247638da",
         "e3674c26-a7f0-428b-8038-41b0615a2db7",
         "c682b85c-331c-4f34-b6a8-949130619ffc",
-        "51f14627-fbc1-433c-973c-c18149e6e116"
+        "51f14627-fbc1-433c-973c-c18149e6e116",
+        "d7916ae7-1da7-46d7-bdef-353a59d7177d"
     ],
     "tutorial": ""
 }
