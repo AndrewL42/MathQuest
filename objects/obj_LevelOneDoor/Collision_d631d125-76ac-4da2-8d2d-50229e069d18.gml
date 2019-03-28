@@ -36,7 +36,7 @@ if (timer >= 30) {
 		case (room_space):
 			room_goto(room_levelOne);
 			audio_stop_sound(sound_walk);
-			audio_play_sound(sound_challenge, 10, true);
+			//audio_play_sound(sound_challenge, 10, true);
 			global.count = 0;
 			global.start_timer = true;
 			break;
