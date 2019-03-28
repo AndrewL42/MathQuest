@@ -20,8 +20,11 @@ switch (room) {
 	case room_levelOne:
 		global.questionX = irandom_range(0, 10);
 		global.questionY = irandom_range(0, 10);
+		// answerBox will choose which box gets to hold the correct answer.
+		global.answerBox = irandom_range(1, 4);
 		global.gameAnswer = global.questionX + global.questionY
 		global.correctAnswer = false;
+
 		
 }
 
