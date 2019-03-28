@@ -1,6 +1,6 @@
 
 {
-    "name": "Room_Pirate",
+    "name": "room_pirate",
     "id": "fc2035d1-e8c2-49c1-bfd7-dd15e8e98467",
     "creationCodeFile": "",
     "inheritCode": false,

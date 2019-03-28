@@ -6,6 +6,7 @@ global.right=false;
 global.up=false;
 global.down=false;
 global.player_speed = 1.4;
+global.questionsAnswered = -1;
 
 
 // Room Problems

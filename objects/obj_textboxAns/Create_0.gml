@@ -3,3 +3,4 @@
 
 timer = 2;
 global.textEnter = "";
+enterRoomTimer = 30;
