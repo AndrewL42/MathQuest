@@ -25,6 +25,7 @@ global.incorrect = false;
 
 roomCleared = false;
 roomTimer = 60;
+answerQuestion = false;
 
 draw_set_font(fnt_sans);
 

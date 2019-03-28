@@ -1378,7 +1378,7 @@
             "Key": "fc2035d1-e8c2-49c1-bfd7-dd15e8e98467",
             "Value": {
                 "id": "35128728-5382-4a2d-8dc9-3c83a63a8589",
-                "resourcePath": "rooms\\Room_Pirate\\Room_Pirate.yy",
+                "resourcePath": "rooms\\room_pirate\\room_pirate.yy",
                 "resourceType": "GMRoom"
             }
         },

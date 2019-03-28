@@ -24,6 +24,7 @@ switch (room) {
 		global.answerBox = irandom_range(1, 4);
 		global.gameAnswer = global.questionX + global.questionY
 		global.correctAnswer = false;
+		global.questionsAnswered += 1
 
 		
 }

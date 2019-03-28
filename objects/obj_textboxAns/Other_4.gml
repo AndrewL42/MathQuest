@@ -1,6 +1,8 @@
 /// @description 
 // You can write your code in this editor
 
+global.textEnter = ""
 
-audio_stop_all()
+
+
 
