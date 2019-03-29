@@ -1,31 +1,19 @@
 /// @description 
 // You can write your code in this editor
 
-switch (room) {
-	case room_challengeAdd:
-		if (global.correctAnswer == true) {
-			roomCleared = true
-		}
-		if (global.incorrect == true) {
-			roomCleared = true
-		}
-	case room_challengeSub:
-		if (global.correctAnswer == true) {
-			roomCleared = true
-		}
-		if (global.incorrect == true) {
-			roomCleared = true
-		}
-}
 
-
-if (global.questionsAnswered >= 5) {
-	room_goto(room_space)	
+if (global.correctAnswer == true) {
+	global.questionsAnswered += 1
+	roomCleared = true
 }
+if (global.incorrect == true) {
+	roomCleared = true
+}
+	
 
 if (room != room_challengeAdd and room != room_challengeSub) {
-	if (global.correctAnswer == true) {
-		roomCleared = true
+	if (global.questionsAnswered == 300) {
+	room_goto(room_complete)	
 	}
 }
 

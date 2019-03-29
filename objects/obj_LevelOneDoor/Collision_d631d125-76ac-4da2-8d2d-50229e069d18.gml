@@ -37,8 +37,7 @@ if (timer >= 30) {
 			room_goto(room_levelOne);
 			audio_stop_sound(sound_walk);
 			//audio_play_sound(sound_challenge, 10, true);
-			global.count = 0;
-			global.start_timer = true;
+			global.questionsAnswered = 0
 			break;
 	timer = 0;
 	}
