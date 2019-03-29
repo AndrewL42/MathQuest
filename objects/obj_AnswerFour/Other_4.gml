@@ -5,19 +5,16 @@
 
 global.boxFour = 4
 
-switch (room) {
-	case (room_levelOne):
-		if (global.answerBox == 4) {
-			global.boxFour = global.gameAnswer
-		} else {
-			do {
-				global.boxFour = script_execute(scr_randomize_buttons, room_levelOne)
-				isDuplicate = script_execute(scr_duplicate_buttons);
-				isGameAnswer = script_execute(scr_is_game_answer, global.boxOne)
-			} until (isDuplicate);
-		}
-		break;
-
+if (global.answerBox == 4) {
+	global.boxFour = global.gameAnswer
+} else {
+	do {
+		global.boxFour = script_execute(scr_randomize_buttons, room)
+		isDuplicate = script_execute(scr_duplicate_buttons)
+		// isGameAnswer might not be needed. Needs to be tested and looked into
+		// before removal, just in case.
+		isGameAnswer = script_execute(scr_is_game_answer, global.boxFour)
+	} until (isDuplicate);
 }
 
 text = global.boxFour

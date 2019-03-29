@@ -39,6 +39,12 @@ if (timer >= 30) {
 			//audio_play_sound(sound_challenge, 10, true);
 			global.questionsAnswered = 0
 			break;
+		case (room_pirate):
+			room_goto(room_levelFour);
+			audio_stop_sound(sound_walk);
+			//audio_play_sound(sound_challenge, 10, true);
+			global.questionsAnswered = 0
+			break;
 	timer = 0;
 	}
 }

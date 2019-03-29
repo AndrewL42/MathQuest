@@ -5,16 +5,6 @@
     "name": "obj_LevelOneDoor",
     "eventList": [
         {
-            "id": "4ad907dd-c957-41aa-a676-4dc1419be2da",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "1165540b-41ef-4f2d-8cb8-e8a3f6871c09"
-        },
-        {
             "id": "d631d125-76ac-4da2-8d2d-50229e069d18",
             "modelName": "GMEvent",
             "mvc": "1.0",

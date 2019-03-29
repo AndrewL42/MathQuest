@@ -13,33 +13,25 @@ use a switch to check which room we're in to decide the math.
 */
 
 
-
-/* Reference code from obj_PortalDoor
-if (timer >= 30) {
-	switch(room) {
-		case (room_overworld):
-			room_goto()
-			break;
-		case (room_space):
-			room_goto(room_overworld);
-			break;
-	}
-	timer = 0;
-}
-
-timer++
-*/
-
-
-/*
 if (timer >= 30) {
 	switch(room) {
 		case (room_space):
-			room_goto(room_challengetemp);
-			break;
-	}
+			if (global.cleared1 == true) {
+				room_goto(room_levelTwo);
+				audio_stop_sound(sound_walk);
+				//audio_play_sound(sound_challenge, 10, true);
+				global.questionsAnswered = 0
+				break;
+			}
+		case (room_pirate):
+			if (global.cleared4 == true) {
+				room_goto(room_levelFive);
+				audio_stop_sound(sound_walk);
+				//audio_play_sound(sound_challenge, 10, true);
+				global.questionsAnswered = 0
+				break;
+			}
 	timer = 0;
+	}
 }
 timer++
-
-*/

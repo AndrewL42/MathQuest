@@ -13,7 +13,7 @@ if (global.incorrect == true) {
 
 if (room != room_challengeAdd and room != room_challengeSub) {
 	if (global.questionsAnswered == 300) {
-	room_goto(room_complete)	
+		room_goto(room_complete)	
 	}
 }
 

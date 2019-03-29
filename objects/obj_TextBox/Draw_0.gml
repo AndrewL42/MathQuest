@@ -2,8 +2,12 @@
 // You can write your code in this editor
 
 draw_sprite(spr_TextBox, 0, x, y);
+if (room == room_levelFive) {
+	draw_set_colour(c_black);
+} else {
+	draw_set_colour(c_white);
+}
 
-draw_set_colour(c_white);
 draw_set_font(fnt_sans);
 if (room == room_challengeAdd or room == room_challengeSub) {
 	draw_text_transformed(room_width/2,(room_height/2), text, 1, 1, 0);

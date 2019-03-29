@@ -22,6 +22,7 @@ global.userAnswer = 0;
 global.gameAnswer = 0;
 global.correctAnswer = false;
 global.incorrect = false;
+global.current = room_get_name(room);
 
 roomCleared = false;
 roomTimer = 60;
