@@ -16,11 +16,60 @@ choices: 101, 98, 112, 108
 */
 switch (room) {
 	case (room_levelOne):
-		randomOne = irandom_range(0, 2);
+		randomOne = irandom_range(0, 1);
+		randomTwo = irandom_range(0, 1);
+
+		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
+		+ irandom_range(global.questionX - randomTwo, global.questionY + randomTwo);
+
+		return answ
+		break;
+	case (room_levelTwo):
+		randomOne = irandom_range(0, 1);
 		randomTwo = irandom_range(0, 2);
 
 		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
 		+ irandom_range(global.questionX - randomTwo, global.questionY + randomTwo);
+
+		return answ
+		break;
+	case (room_levelThree):
+		randomOne = irandom_range(0, 2);
+		randomTwo = irandom_range(0, 2);
+		randomThree = irandom_range(0, 2);
+
+		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
+		+ irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
+		+ irandom_range(global.questionY - randomTwo, global.questionZ + randomThree);
+
+		return answ
+		break;
+	case (room_levelFour):
+		randomOne = irandom_range(0, 2);
+		randomTwo = irandom_range(0, 1);
+
+		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
+		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo);
+
+		return answ
+		break;
+	case (room_levelFive):
+		randomOne = irandom_range(0, 2);
+		randomTwo = irandom_range(0, 1);
+
+		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
+		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo);
+
+		return answ
+		break;
+	case (room_levelSix):
+		randomOne = irandom_range(0, 2);
+		randomTwo = irandom_range(0, 2);
+		randomThree = irandom_range(0, 1);
+
+		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
+		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
+		- irandom_range(global.questionY - randomTwo, global.questionZ + randomThree);
 
 		return answ
 		break;

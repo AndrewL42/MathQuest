@@ -34,19 +34,23 @@ timer++
 if (timer >= 30) {
 	switch(room) {
 		case (room_space):
+		if (global.cleared3 == true) {
 			room_goto(room_challengeAdd);
 			audio_stop_sound(sound_walk);
 			audio_play_sound(sound_challenge, 10, true);
 			global.count = 0;
 			global.start_timer = true;
 			break;
-		case (Room_Pirate):
+		}
+		case (room_pirate):
+		if (global.cleared6 == true) {
 			room_goto(room_challengeSub);
 			audio_stop_sound(sound_walk);
 			audio_play_sound(sound_challenge, 10, true);
 			global.count = 0;
 			global.start_timer = true;
 			break;
+		}
 	}
 	timer = 0;
 }

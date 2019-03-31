@@ -5,16 +5,6 @@
     "name": "obj_LevelTwoDoor",
     "eventList": [
         {
-            "id": "788aee74-7901-4282-840c-12a5e9ff05a5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "24116c00-3f0c-4f5c-b03d-f89a8b9a5eb8"
-        },
-        {
             "id": "6280e4c3-a625-4da3-87d9-ca4802f86f17",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -42,6 +32,16 @@
             "collisionObjectId": "1bfdb1f7-9de7-4d0c-90c8-e80cbf12821b",
             "enumb": 0,
             "eventtype": 4,
+            "m_owner": "24116c00-3f0c-4f5c-b03d-f89a8b9a5eb8"
+        },
+        {
+            "id": "31d6bf40-c929-4d8b-aeec-3f6016873c2f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 27,
+            "eventtype": 9,
             "m_owner": "24116c00-3f0c-4f5c-b03d-f89a8b9a5eb8"
         }
     ],

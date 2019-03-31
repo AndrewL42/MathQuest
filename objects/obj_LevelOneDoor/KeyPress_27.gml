@@ -3,20 +3,16 @@
 
 
 switch(room) {
-	case (room_challengeAdd):
-		global.xx = 424;
-		global.yy = 270;
-		room_goto(room_space);
-		break;
-	case (room_challengeSub):
-		global.xx = 424;
-		global.yy = 270;
-		room_goto(Room_Pirate);
-		break;
 	case (room_levelOne):
-		global.xx = 255;
-		global.yy = 125;
+		global.xx = 270;
+		global.yy = 150;
 		room_goto(room_space);
+		break;
+	case (room_levelFour):
+		global.xx = 271;
+		global.yy = 170;
+		room_goto(room_pirate);
+		break;
 	}
 
 

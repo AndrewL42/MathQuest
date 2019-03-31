@@ -12,6 +12,6 @@ switch(room) {
 		global.xx = 405;
 		global.yy = 255;
 		audio_stop_sound(sound_challenge);
-		room_goto(Room_Pirate);
+		room_goto(room_pirate);
 		break;
 	}
