@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "6a4d655c-8149-4197-9e54-ef014b93479b",
+            "Value": {
+                "id": "d560d668-db16-4532-96f4-3d4e43d8c231",
+                "resourcePath": "sprites\\Challenge_Mode\\Challenge_Mode.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6aec25ef-0403-4884-baf5-e932deb5af2a",
             "Value": {
                 "id": "47aeb509-a199-45b6-bcad-d48621bc742e",
