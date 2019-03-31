@@ -16,7 +16,7 @@
 	UPDATE and DELETE queries accept join clauses, but the results will be applied only to the main query table. for this reson, UPDATE queries
 	are not required, nor should, use the table prefix for the columns to be updated.
 	
-	Specifying an empty string as join_table, will remove the clause from the query.
+	Specifying an empty string as join_table, will remove the// comment here clause from the query.
 */
 
 var _query  = argument0;
