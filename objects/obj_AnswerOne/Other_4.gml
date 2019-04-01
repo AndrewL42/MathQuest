@@ -22,7 +22,7 @@ if (global.answerBox == 1) {
 		// isGameAnswer might not be needed. Needs to be tested and looked into
 		// before removal, just in case.
 		isGameAnswer = script_execute(scr_is_game_answer, global.boxOne)
-		isNotNegativeAnswer = script_execute(scr_is_game_answer, global.boxOne)
+		isNotNegativeAnswer = script_execute(scr_no_negative_answer, global.boxOne)
 	} until (isDuplicate and isNotNegativeAnswer);
 }
 /*
