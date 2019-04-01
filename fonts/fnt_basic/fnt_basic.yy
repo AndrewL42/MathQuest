@@ -1,7 +1,7 @@
 {
     "id": "62057255-a1bf-4811-a706-4aeb50eb690d",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "fnt_basic",
     "AntiAlias": 0,
     "TTFName": "",
@@ -10,7 +10,6 @@
     "charset": 0,
     "first": 0,
     "fontName": "Consolas",
-    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1453,16 +1452,13 @@
             }
         }
     ],
-    "hinting": 0,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
