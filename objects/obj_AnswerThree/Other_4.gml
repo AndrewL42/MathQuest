@@ -14,7 +14,8 @@ if (global.answerBox == 3) {
 		// isGameAnswer might not be needed. Needs to be tested and looked into
 		// before removal, just in case.
 		isGameAnswer = script_execute(scr_is_game_answer, global.boxThree)
-	} until (isDuplicate);
+		isNotNegativeAnswer = script_execute(scr_no_negative_answer, global.boxThree)
+	} until (isDuplicate and isNotNegativeAnswer);
 }
 
 text = global.boxThree
