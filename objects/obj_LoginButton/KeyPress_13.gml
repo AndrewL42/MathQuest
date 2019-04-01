@@ -1,4 +1,11 @@
 /// @description No button click
-if (global.password == "KLenth") {
-	room_goto(room_admin);
+switch (room) {
+	case room_adminLogin:
+		if (global.password == "KLenth") {
+			room_goto(room_admin);
+		}
+		break;
+	case room_studentLogin:
+			room_goto(room_overworld);	
+		break;
 }
