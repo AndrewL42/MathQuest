@@ -1383,6 +1383,14 @@
             }
         },
         {
+            "Key": "8bd20625-13be-4100-913e-5c4aa63b8d66",
+            "Value": {
+                "id": "4f511a9e-1be7-4cb5-a8b1-8aeebde4f7d8",
+                "resourcePath": "objects\\door_evil\\door_evil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c430d6f-6301-46c7-80ca-b1f9f441c155",
             "Value": {
                 "id": "56ba74fd-509b-4db0-8e09-e4bdc92b2ffd",
@@ -1492,6 +1500,22 @@
                 "id": "f0473e60-cf73-44d2-932a-3a59443bad3a",
                 "resourcePath": "views\\968561b0-a7b9-4d77-9ed2-e081c59d8ad1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9696b4ae-9c7c-4cd3-85a6-14b1382ed6b2",
+            "Value": {
+                "id": "6e72b620-efc7-49c8-901f-fade0555eec2",
+                "resourcePath": "sprites\\sprite55\\sprite55.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97251d5d-b3f7-4a12-b741-1c6e707a91f0",
+            "Value": {
+                "id": "1189d8dd-1bde-4d75-bea2-8dba7ac8a1b8",
+                "resourcePath": "rooms\\room_evil\\room_evil.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
