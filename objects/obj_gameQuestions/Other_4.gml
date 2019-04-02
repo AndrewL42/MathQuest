@@ -67,6 +67,33 @@ switch (room) {
 		global.gameAnswer = global.questionX - global.questionY - global.questionZ
 		global.correctAnswer = false;
 		break;
+	case room_levelSeven:
+		global.questionX = irandom_range(1, 10);
+		global.questionY = irandom_range(10, 20);
+		global.questionZ = irandom_range(1, 10);
+		// answerBox will choose which box gets to hold the correct answer.
+		global.answerBox = irandom_range(1, 4);
+		global.gameAnswer = global.questionX + global.questionY - global.questionZ
+		global.correctAnswer = false;
+		break;
+	case room_levelEight:
+		global.questionX = irandom_range(1, 10);
+		global.questionY = irandom_range(11, 60);
+		global.questionZ = irandom_range(1, 40);
+		// answerBox will choose which box gets to hold the correct answer.
+		global.answerBox = irandom_range(1, 4);
+		global.gameAnswer = global.questionX + global.questionY - global.questionZ
+		global.correctAnswer = false;
+		break;
+	case room_levelNine:
+		global.questionX = irandom_range(70, 100);
+		global.questionY = irandom_range(11, 60);
+		global.questionZ = irandom_range(1, 10);
+		// answerBox will choose which box gets to hold the correct answer.
+		global.answerBox = irandom_range(1, 4);
+		global.gameAnswer = global.questionX - global.questionY - global.questionZ
+		global.correctAnswer = false;
+		break;
 }
 
 
