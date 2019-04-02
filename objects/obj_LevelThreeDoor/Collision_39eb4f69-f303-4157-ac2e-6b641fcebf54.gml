@@ -41,5 +41,5 @@ if (timer >= 30) {
 			}
 	timer = 0;
 	}
-timer++;
 }
+timer++;
