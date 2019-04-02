@@ -53,5 +53,23 @@ switch (room) {
 		stringHeight = string_height(text)
 		draw_set_color(c_white)
 		break;
+	case room_levelSeven:
+		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + " - " + string(global.questionZ) + "?"
+		boxWidth = sprite_get_width(spr_TextBox)
+		stringHeight = string_height(text)
+		draw_set_color(c_white)
+		break;
+	case room_levelEight:
+		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + " - " + string(global.questionZ) + "?"
+		boxWidth = sprite_get_width(spr_TextBox)
+		stringHeight = string_height(text)
+		draw_set_color(c_white)
+		break;
+	case room_levelNine:
+		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + " - " + string(global.questionZ) + "?"
+		boxWidth = sprite_get_width(spr_TextBox)
+		stringHeight = string_height(text)
+		draw_set_color(c_white)
+		break;
 }
 

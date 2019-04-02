@@ -14,8 +14,8 @@ switch(room) {
 		room_goto(room_pirate);
 		break;
 	case (room_levelEight):
-		global.xx = 480;
-		global.yy = 180;
+		global.xx = 430;
+		global.yy = 160;
 		audio_stop_all();
 		room_goto(room_evil);
 		break;
