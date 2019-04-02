@@ -2087,6 +2087,14 @@
             }
         },
         {
+            "Key": "ca0d09b7-e1e1-45d3-91df-1f5ac3d00fbc",
+            "Value": {
+                "id": "d85076b3-97cf-421c-9565-fdfc936e50d5",
+                "resourcePath": "sprites\\challenge_room\\challenge_room.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ca5eded2-ab6e-46d8-baf9-e8711db6c21d",
             "Value": {
                 "id": "b962c9f2-4e0e-434d-88c3-2f348e61ce45",
