@@ -31,7 +31,7 @@ if (timer >= 30) {
 				global.questionsAnswered = 0
 				break;
 			}
-	case (room_evil):
+		case (room_evil):
 			if (global.cleared7 == true) {
 				room_goto(room_levelEight);
 				audio_stop_sound(sound_walk);
