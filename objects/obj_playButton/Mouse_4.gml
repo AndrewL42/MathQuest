@@ -1,6 +1,6 @@
 global.xx = 64;
 global.yy = 288;
-room_goto(room_overworld);
+room_goto(room_studentLogin);
 audio_play_sound(sound_click, 5, false);
 db_init()
 db_open("class");
