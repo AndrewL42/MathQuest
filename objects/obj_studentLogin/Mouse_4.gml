@@ -1,12 +1,12 @@
 /// @description Get Password
 global.name = ""
-global.password = string_upper(global.password)
-print(global.password)
+global.first = string_upper(global.first)
+print(global.first)
 var q1 = db_query_select("students",["name"]);
-db_cl_where(q1,db_op_eq,["fname","lname"],[global.password])
+db_cl_where(q1,db_op_eq,["fname","lname"],[global.first])
 g1 = db_query_exec(q1)
 if(g1 != -1){
-	global.name = global.password
+	global.name = global.first
 		
 	audio_play_sound(sound_click, 5, false);
 	room_goto(room_overworld);
