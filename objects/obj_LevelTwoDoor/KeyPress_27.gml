@@ -1,7 +1,5 @@
 /// @description 
-// You can write your code in this editor
-
-
+//pray to the machine spirit
 switch(room) {
 	case (room_levelTwo):
 		global.xx = 435;
@@ -14,6 +12,12 @@ switch(room) {
 		global.yy = 165;
 		audio_stop_all();
 		room_goto(room_pirate);
+		break;
+	case (room_levelEight):
+		global.xx = 440;
+		global.yy = 175;
+		audio_stop_all();
+		room_goto(room_evil);
 		break;
 	}
 

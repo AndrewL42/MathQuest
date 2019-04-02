@@ -11,8 +11,8 @@ if (timer >= 30) {
 			break;
 		case (room_evil):
 			room_goto(room_overworld);
-			global.xx = 757;
-			global.yy = 621;
+			global.xx = 861;
+			global.yy = 104;
 			break;
 	}
 	timer = 0;

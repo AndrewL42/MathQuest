@@ -45,6 +45,13 @@ if (timer >= 30) {
 			//audio_play_sound(sound_challenge, 10, true);
 			global.questionsAnswered = 0
 			break;
+		case (room_evil):
+			room_goto(room_levelFive);
+			audio_stop_sound(sound_walk);
+			//audio_play_sound(Sound_challenge,10,true);
+			// if you need this still, I put it here aswell. :3
+			global.questionAnswered = 0
+			break;
 	timer = 0;
 	}
 }

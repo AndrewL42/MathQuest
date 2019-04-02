@@ -31,7 +31,15 @@ if (timer >= 30) {
 				global.questionsAnswered = 0
 				break;
 			}
+			case (room_evil):
+			if (global.cleared8 == true) {
+				room_goto(room_levelNine);
+				audio_stop_sound(sound_walk);
+				//audio_play_sound(sound_challenge, 10, true);
+				global.questionsAnswered = 0
+				break;
+			}
 	timer = 0;
 	}
+timer++;
 }
-timer++

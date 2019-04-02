@@ -7,3 +7,6 @@ global.cleared3 = true;
 global.cleared4 = true;
 global.cleared5 = true;
 global.cleared6 = true;
+global.cleared7 = true;
+global.cleared8 = true;
+global.cleared9 = true;

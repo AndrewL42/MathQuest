@@ -14,4 +14,11 @@ switch(room) {
 		audio_stop_sound(sound_challenge);
 		room_goto(room_pirate);
 		break;
+	case (room_challengeSubAdd):
+		global.xx = 415;
+		global.yy = 265;
+		audio_stop_sound(sound_challenge);
+		room_goto(room_evil);
+		break;
+		
 	}

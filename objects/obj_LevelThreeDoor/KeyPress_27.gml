@@ -15,6 +15,12 @@ switch(room) {
 		audio_stop_all();
 		room_goto(room_pirate);
 		break;
+	case (room_levelNine):
+		global.xx = 575;
+		global.yy = 160;
+		audio_stop_all();
+		room_goto(room_evil);
+		break;
 	}
 
 
