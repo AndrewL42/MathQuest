@@ -51,8 +51,17 @@ if (timer >= 30) {
 			global.start_timer = true;
 			break;
 		}
+			case (room_evil):
+		if (global.cleared9 == true) {
+			room_goto(room_challengeSub);
+			audio_stop_sound(sound_walk);
+			audio_play_sound(sound_challenge, 10, true);
+			global.count = 0;
+			global.start_timer = true;
+			break;
 	}
 	timer = 0;
 }
 timer++
 
+}

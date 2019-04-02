@@ -13,6 +13,10 @@ switch(room) {
 		global.yy = 170;
 		room_goto(room_pirate);
 		break;
-	}
-
+	case (room_levelSeven):
+		global.xx = 271;
+		global.yy = 150;
+		room_goto(room_evil);
+		break;
+}
 
