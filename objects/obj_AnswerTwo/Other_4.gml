@@ -10,12 +10,11 @@ if (global.answerBox == 2) {
 } else {
 	do {
 		global.boxTwo = script_execute(scr_randomize_buttons, room)
-		isDuplicate = script_execute(scr_duplicate_buttons)
-		// isGameAnswer might not be needed. Needs to be tested and looked into
-		// before removal, just in case.
+		isDuplicate = script_execute(scr_duplicate_buttons, global.boxTwo, global.boxOne, global.boxThree, global.boxFour)
+
 		isGameAnswer = script_execute(scr_is_game_answer, global.boxTwo)
-isNotNegativeAnswer = script_execute(scr_no_negative_answer, global.boxTwo)
-	} until (isDuplicate and isNotNegativeAnswer);
+		isNotNegativeAnswer = script_execute(scr_no_negative_answer, global.boxTwo)
+	} until (isDuplicate and isNotNegativeAnswer and isGameAnswer);
 }
 
 text = global.boxTwo
