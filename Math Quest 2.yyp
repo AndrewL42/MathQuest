@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "11da72e3-4d4d-4747-be4e-2810fb6c7df1",
+            "Value": {
+                "id": "cbbddae6-7e90-4aa2-bf01-014fc6696380",
+                "resourcePath": "sprites\\spr_goToSignUp\\spr_goToSignUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11f958f0-ee12-4db7-b1e0-aa44e522f273",
             "Value": {
                 "id": "066df553-e406-4252-90e5-4ab334f7a812",
@@ -1647,6 +1655,14 @@
             }
         },
         {
+            "Key": "9baf91fd-2908-47a7-9961-76d5d8cbdec6",
+            "Value": {
+                "id": "b5fb3294-394c-45ab-9c7e-014ef8130028",
+                "resourcePath": "sprites\\spr_signUpButton\\spr_signUpButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9cae7ee0-46d2-47f5-a6f2-370298c19c89",
             "Value": {
                 "id": "2cb0f09f-52ea-4146-81da-22433687fc5c",
@@ -2343,6 +2359,14 @@
             }
         },
         {
+            "Key": "e88efba6-eef1-42c8-bf9b-3bd1632778bc",
+            "Value": {
+                "id": "f97905c1-8450-439d-b2a1-01630a7cc245",
+                "resourcePath": "objects\\obj_studentSignUp\\obj_studentSignUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e8962397-efb5-4468-9f53-048ec4c637cd",
             "Value": {
                 "id": "6f70c2de-9eb0-4887-b1e0-370cf1da3ce9",
@@ -2388,6 +2412,22 @@
                 "id": "be8070cf-17dc-43c1-887d-1a5f32e96eea",
                 "resourcePath": "objects\\obj_title2\\obj_title2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f17791da-7c53-4af0-a7c8-2031b5fa2cf3",
+            "Value": {
+                "id": "48748ccf-2d9d-4817-87d7-9b374fa07463",
+                "resourcePath": "objects\\obj_goToSignUp\\obj_goToSignUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2183c1d-e096-408d-bf19-43be1c65cca8",
+            "Value": {
+                "id": "67101f08-3e6a-456f-bf81-37178245765d",
+                "resourcePath": "rooms\\room_studentSignUp\\room_studentSignUp.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
