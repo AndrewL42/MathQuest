@@ -11,12 +11,16 @@
         "9fd424b7-912d-4449-9df7-fafd89adc179",
         "dc262bbc-3500-4f87-bf33-23cc464f9de3",
         "34152b12-f942-48b9-918b-8c1ef6a9c756",
+        "9baf91fd-2908-47a7-9961-76d5d8cbdec6",
         "df88b39c-d65a-4803-b819-9af023c51f2f",
         "00f80c00-8d75-4177-aca1-83166bbbe8ad",
         "b1c76441-7d45-4f66-80a7-18c4675685f7",
         "5f87e9e8-6c73-4492-b365-7c7292a7b297",
         "0e112c38-275d-4487-bd75-1918b1764c32",
-        "0bcbfc27-5a15-47cf-8643-c96ba171a8f3"
+        "0bcbfc27-5a15-47cf-8643-c96ba171a8f3",
+        "11da72e3-4d4d-4747-be4e-2810fb6c7df1",
+        "b4385796-acc8-4a4a-8499-e6097ccc57a0",
+        "c9ae3dfd-5a62-46ef-8710-63eafbb5c7fb"
     ],
     "filterType": "GMSprite",
     "folderName": "Buttons",
