@@ -2,14 +2,14 @@
 // You can write your code in this editor
 
 draw_sprite(spr_TextBox, 0, x, y);
-if (room == room_levelFive) {
+if (room == room_levelFive or room == room_levelNine) {
 	draw_set_colour(c_black);
 } else {
 	draw_set_colour(c_white);
 }
 
 draw_set_font(fnt_sans);
-if (room == room_challengeAdd or room == room_challengeSub) {
+if (room == room_challengeAdd or room == room_challengeSub or room == room_challengeSubAdd) {
 	draw_text_transformed(room_width/2,(room_height/2), text, 1, 1, 0);
 	draw_text_transformed(900,90, "Score: " + string(global.count), 1, 1, 0);
 } else if (room == room_challengeResults){
@@ -22,7 +22,7 @@ if (room == room_challengeAdd or room == room_challengeSub) {
 
 if (global.correctAnswer == true) {
 	draw_set_colour(c_green);
-	if (room == room_challengeAdd or room == room_challengeSub) {
+	if (room == room_challengeAdd or room == room_challengeSub or room == room_challengeSubAdd) {
 		draw_text_transformed(room_width/2,(room_height/2)+30,"Correct!", 1, 1, 0);
 		global.count += 10;
 	} else {
@@ -32,7 +32,7 @@ if (global.correctAnswer == true) {
 
 if (global.incorrect == true) {
 	draw_set_colour(c_red);
-	if (room == room_challengeAdd or room == room_challengeSub) {
+	if (room == room_challengeAdd or room == room_challengeSub or room == room_challengeSubAdd) {
 		draw_text_transformed(room_width/2,(room_height/2)+30,"Incorrect!", 1, 1, 0);
 		draw_text(room_width/2,(room_height/2)+50,"The answer is: " + string(global.gameAnswer));
 	}

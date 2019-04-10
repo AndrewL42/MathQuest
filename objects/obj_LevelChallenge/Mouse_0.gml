@@ -3,22 +3,21 @@
 
 switch(room) {
 	case (room_challengeAdd):
-		global.xx = 424;
-		global.yy = 270;
+		global.xx = 435;
+		global.yy = 290;
 		audio_stop_sound(sound_challenge);
 		room_goto(room_space);
 		break;
 	case (room_challengeSub):
-		global.xx = 405;
-		global.yy = 255;
+		global.xx = 430;
+		global.yy = 275;
 		audio_stop_sound(sound_challenge);
 		room_goto(room_pirate);
 		break;
 	case (room_challengeSubAdd):
-		global.xx = 415;
-		global.yy = 265;
+		global.xx = 430;
+		global.yy = 275;
 		audio_stop_sound(sound_challenge);
 		room_goto(room_evil);
 		break;
-		
 	}

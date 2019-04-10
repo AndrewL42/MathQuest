@@ -53,7 +53,7 @@ if (timer >= 30) {
 		}
 		case (room_evil):
 			if (global.cleared9 == true) {
-				room_goto(room_challengeSub);
+				room_goto(room_challengeSubAdd);
 				audio_stop_sound(sound_walk);
 				audio_play_sound(sound_challenge, 10, true);
 				global.count = 0;

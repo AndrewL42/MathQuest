@@ -12,6 +12,11 @@ switch (room) {
 		boxWidth = sprite_get_width(spr_TextBox)
 		stringHeight = string_height(text)
 		break;
+	case room_challengeSubAdd:
+		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + " - " + string(global.questionZ)+ "?"
+		boxWidth = sprite_get_width(spr_TextBox)
+		stringHeight = string_height(text)
+		break;
 	case room_challengeResults:
 		text = "Your score was: "
 		boxWidth = sprite_get_width(spr_TextBox)

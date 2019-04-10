@@ -157,7 +157,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "spriteId": "8698cb3f-a659-4551-9e57-a8b20107f942",
             "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
