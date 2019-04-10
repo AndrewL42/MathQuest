@@ -61,7 +61,6 @@ if (timer >= 30) {
 			break;
 	}
 	timer = 0;
+	}
 }
 timer++
-
-}
