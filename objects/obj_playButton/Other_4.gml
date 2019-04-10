@@ -1,6 +1,7 @@
 /// @description Music
 audio_play_sound(sound_startMusic, 10, true);
 global.current = room_get_name(room);
+global.tryAgain = room;
 global.cleared1 = true;
 global.cleared2 = true;
 global.cleared3 = true;
