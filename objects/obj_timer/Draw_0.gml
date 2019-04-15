@@ -1,5 +1,5 @@
 /// @description Insert description here
-draw_text(900,120, "Time: " + string((global.timer/room_speed) mod 60));
+draw_text(900,120, "Time: " + string((global.timer/room_speed) mod 10));
 
 if (global.timer > 0) {
 	global.timer--;

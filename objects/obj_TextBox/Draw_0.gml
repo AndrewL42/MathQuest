@@ -1,5 +1,25 @@
 /// @description 
 // You can write your code in this editor
+switch (room) {
+		case room_challengeAdd:
+			if (global.count > global.addScore) {
+				global.addScore = global.count
+			}
+			global.highScore = string(global.addScore);
+			break;
+		case room_challengeSub:
+			if (global.count > global.subScore) {
+				global.subScore = global.count
+			}
+			global.highScore = string(global.subScore);
+			break;
+		case room_challengeSubAdd:
+			if (global.count > global.mixScore) {
+				global.mixScore = global.count
+			}
+			global.highScore = string(global.mixScore);
+			break;
+		}
 
 draw_sprite(spr_TextBox, 0, x, y);
 if (room == room_levelFive or room == room_levelNine) {
@@ -15,7 +35,9 @@ if (room == room_challengeAdd or room == room_challengeSub or room == room_chall
 } else if (room == room_challengeResults){
 	draw_set_colour(c_yellow);
 	draw_text_transformed(room_width/2,(room_height/2), text, 1, 1, 0);
-	draw_text_transformed(room_width/2,(room_height/2)+50,string(global.count), 2, 2, 0);
+	draw_text_transformed(room_width/2,(room_height/2)-150, text2, 1, 1, 0);
+	draw_text_transformed(room_width/2,(room_height/2)-100, string(global.highScore), 2, 2, 0);
+	draw_text_transformed(room_width/2,(room_height/2)+50, string(global.count), 2, 2, 0);
 } else {
 	draw_text_transformed(x,y, text, 1, 1, 0);
 }
@@ -24,7 +46,6 @@ if (global.correctAnswer == true) {
 	draw_set_colour(c_green);
 	if (room == room_challengeAdd or room == room_challengeSub or room == room_challengeSubAdd) {
 		draw_text_transformed(room_width/2,(room_height/2)+30,"Correct!", 1, 1, 0);
-		global.count += 10;
 	} else {
 		draw_text_transformed(x + 40, y + 30,"Correct!", 1, 1, 0);
 	}

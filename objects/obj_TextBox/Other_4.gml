@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 switch (room) {
 	case room_challengeAdd:
 		text = "WHAT IS " + string(global.questionX) + " + " + string(global.questionY) + " + " + string(global.questionZ)+ "?"
@@ -18,7 +15,8 @@ switch (room) {
 		stringHeight = string_height(text)
 		break;
 	case room_challengeResults:
-		text = "Your score was: "
+		text = "Your recent score was: "
+		text2 = "Your high score is: "
 		boxWidth = sprite_get_width(spr_TextBox)
 		stringHeight = string_height(text)
 		break;
@@ -76,5 +74,10 @@ switch (room) {
 		stringHeight = string_height(text)
 		draw_set_color(c_white)
 		break;
+	case room_recognize:
+		text = "WHAT NUMBER PLACE IS " + string(global.placeQuestion) + "?"
+		boxWidth = sprite_get_width(spr_TextBox)
+		stringHeight = string_height(text)
+		draw_set_color(c_white)
+		break;
 }
-
