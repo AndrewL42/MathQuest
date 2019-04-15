@@ -38,6 +38,8 @@ if (room == room_challengeAdd or room == room_challengeSub or room == room_chall
 	draw_text_transformed(room_width/2,(room_height/2)-150, text2, 1, 1, 0);
 	draw_text_transformed(room_width/2,(room_height/2)-100, string(global.highScore), 2, 2, 0);
 	draw_text_transformed(room_width/2,(room_height/2)+50, string(global.count), 2, 2, 0);
+} else if (room == room_placement) {
+	draw_text_transformed((room_width/2)-170,(room_height/2)-75, text, 1, 1, 0);
 } else {
 	draw_text_transformed(x,y, text, 1, 1, 0);
 }

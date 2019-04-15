@@ -74,10 +74,9 @@ switch (room) {
 		stringHeight = string_height(text)
 		draw_set_color(c_white)
 		break;
-	case room_recognize:
-		text = "WHAT NUMBER PLACE IS " + string(global.placeQuestion) + "?"
+	case room_placement:
+		text = "WHAT NUMBER PLACE IS " + string(global.placeQuestion) + " IN?"
 		boxWidth = sprite_get_width(spr_TextBox)
 		stringHeight = string_height(text)
-		draw_set_color(c_white)
 		break;
 }
