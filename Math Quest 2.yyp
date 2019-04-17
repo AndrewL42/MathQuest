@@ -607,14 +607,6 @@
             }
         },
         {
-            "Key": "2bbb77b0-3bcc-4acc-9ea3-0948dffe3b65",
-            "Value": {
-                "id": "1b472680-c7b3-4183-881a-86379309cf8c",
-                "resourcePath": "views\\2bbb77b0-3bcc-4acc-9ea3-0948dffe3b65.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "2c016c08-3335-4c1b-ac74-9f23247638da",
             "Value": {
                 "id": "aeae2814-4ca4-4517-9fca-edaa7032ad88",
@@ -644,14 +636,6 @@
                 "id": "14cfd204-d87a-49b3-948b-79802c8286da",
                 "resourcePath": "scripts\\scr_last_init\\scr_last_init.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2d2326a0-e4f7-4187-8068-950207cc19dd",
-            "Value": {
-                "id": "8c07041d-5470-493a-b577-33119db81ac8",
-                "resourcePath": "views\\2d2326a0-e4f7-4187-8068-950207cc19dd.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1260,6 +1244,14 @@
                 "id": "e3f0cd69-86eb-4713-bc9c-3407ec55f816",
                 "resourcePath": "scripts\\_db_table_path\\_db_table_path.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "643ebe15-da28-4279-839d-ecad807fa1d8",
+            "Value": {
+                "id": "c23e03c3-c03f-4af2-a151-46e038a99bdc",
+                "resourcePath": "views\\643ebe15-da28-4279-839d-ecad807fa1d8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1943,14 +1935,6 @@
             }
         },
         {
-            "Key": "a677bb04-18d3-4569-978f-6d5f5bebefd4",
-            "Value": {
-                "id": "b84758ab-e191-4d41-9c67-a7d1e096763e",
-                "resourcePath": "views\\a677bb04-18d3-4569-978f-6d5f5bebefd4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a746fbc9-cdc4-48a4-a742-cf5f912e3085",
             "Value": {
                 "id": "8dfb17ab-6f8e-4199-8896-1f1a36972ce0",
@@ -1964,22 +1948,6 @@
                 "id": "2d90a173-d248-499f-b5a5-5b4c1fe5f3c2",
                 "resourcePath": "objects\\obj_AnswerThree\\obj_AnswerThree.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a7b85d67-bc6a-4587-b9d9-359930179e83",
-            "Value": {
-                "id": "3fb71844-dc0d-429e-bc93-59ffad503b8f",
-                "resourcePath": "views\\a7b85d67-bc6a-4587-b9d9-359930179e83.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a7efe42b-9a14-47ab-8418-54a69ab54775",
-            "Value": {
-                "id": "da7507fd-b263-4637-ad68-2fd0be753fbc",
-                "resourcePath": "views\\a7efe42b-9a14-47ab-8418-54a69ab54775.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2543,6 +2511,14 @@
             }
         },
         {
+            "Key": "e144debe-d8c3-4921-9037-7e2b1ebecc6d",
+            "Value": {
+                "id": "f5c6fa57-c48f-494d-a591-23cb9fbe4721",
+                "resourcePath": "views\\e144debe-d8c3-4921-9037-7e2b1ebecc6d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e166bd25-9ce2-4389-b8fd-c962afbd659f",
             "Value": {
                 "id": "d95e9386-23f6-4157-9c3c-5f86c21dd184",
@@ -2716,14 +2692,6 @@
                 "id": "deeebbc5-7f49-4792-914a-af80625b0d32",
                 "resourcePath": "scripts\\_db_table_read\\_db_table_read.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f518e206-2523-476c-85a0-b8ecdd23eded",
-            "Value": {
-                "id": "e75a129f-1363-4134-9509-493dec86e0ae",
-                "resourcePath": "views\\f518e206-2523-476c-85a0-b8ecdd23eded.yy",
-                "resourceType": "GMFolder"
             }
         },
         {

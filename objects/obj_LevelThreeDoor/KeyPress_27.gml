@@ -1,7 +1,6 @@
 /// @description 
 // You can write your code in this editor
 
-
 switch(room) {
 	case (room_levelThree):
 		global.xx = 572;

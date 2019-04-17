@@ -15,7 +15,7 @@ switch(room) {
 		break;
 	case (room_levelSeven):
 		global.xx = 270;
-		global.yy = 150;
+		global.yy = 173;
 		room_goto(room_evil);
 		break;
 }

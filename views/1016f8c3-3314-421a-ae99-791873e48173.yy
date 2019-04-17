@@ -31,7 +31,12 @@
         "84596dbb-ce2c-40df-9533-d55d2495b558",
         "fa7366e0-426c-4de1-9764-3d812ecdc1de",
         "e95d0ff7-297b-4aa2-91d0-da9ecceead98",
+<<<<<<< HEAD
         "739ff412-7ea9-4f47-8ebc-69b6e1229909"
+=======
+        "f2183c1d-e096-408d-bf19-43be1c65cca8",
+        "ed9c90a2-56f3-41d5-a63d-ad7db4685ce0"
+>>>>>>> master
     ],
     "filterType": "GMRoom",
     "folderName": "rooms",

@@ -6,7 +6,8 @@
     "children": [
         "99a7efbf-8628-477a-ac08-0d80af47f137",
         "0a7b5054-b82a-47b7-a35e-7f64a0b2c213",
-        "772d68e1-3b90-4a5a-abfd-43b133e1808b"
+        "772d68e1-3b90-4a5a-abfd-43b133e1808b",
+        "e89a932d-1abf-452c-a4f4-886ce754b13b"
     ],
     "filterType": "GMObject",
     "folderName": "Music",
