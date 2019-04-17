@@ -3,6 +3,6 @@
 
 audio_play_sound(sound_walk, 2, true);
 
-sprite_index = spr_MaleRight
+sprite_index = spr_FemaleRight
 
 input_right = true;

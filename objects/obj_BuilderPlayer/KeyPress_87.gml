@@ -3,6 +3,6 @@
 
 audio_play_sound(sound_walk, 2, true);
 
-sprite_index = spr_MaleUp
+sprite_index = spr_BuilderUp
 
 input_up = true;
