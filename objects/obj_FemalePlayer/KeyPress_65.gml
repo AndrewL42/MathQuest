@@ -1,7 +1,9 @@
 /// @description Move Left
 // You can write your code in this editor
 
-sprite_index = spr_MaleLeft
+audio_play_sound(sound_walk, 2, true);
+
+sprite_index = spr_FemaleLeft
 
 input_left = true;
 
