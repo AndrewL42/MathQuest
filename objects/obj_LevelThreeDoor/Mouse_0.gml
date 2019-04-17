@@ -2,8 +2,8 @@
 
 switch(room) {
 	case (room_levelThree):
-		global.xx = 558;
-		global.yy = 155;
+		global.xx = 565;
+		global.yy = 160;
 		audio_stop_all();
 		room_goto(room_space);
 		break;

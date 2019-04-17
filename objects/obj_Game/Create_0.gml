@@ -7,9 +7,6 @@ global.up=false;
 global.down=false;
 global.player_speed = 1.4;
 global.questionsAnswered = -1;
-global.start_timer = false
-global.count = 0
-global.timer = 60
 
 
 // Room Problems

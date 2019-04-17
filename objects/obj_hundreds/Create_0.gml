@@ -1,6 +1,7 @@
-/// @description 
+/// @description
 // You can write your code in this editor
 
-timer = 60
+global.hundreds = 3
+
 
 

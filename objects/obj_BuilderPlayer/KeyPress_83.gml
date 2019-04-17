@@ -3,6 +3,6 @@
 
 audio_play_sound(sound_walk, 2, true);
 
-sprite_index = spr_BuilderDown
+sprite_index = spr_MaleDown
 
 input_down = true;

@@ -8,14 +8,10 @@ or global.boxTwo == global.boxThree or global.boxTwo == global.boxFour
 or global.boxThree == global.boxFour)
 {*/
 
-/*
-
 show_debug_message(argument0)
 show_debug_message(argument1)
 show_debug_message(argument2)
 show_debug_message(argument3)
-
-*/
 
 if (argument0 == argument1 or argument0 == argument2 or argument0 == argument3) {
 	return false
