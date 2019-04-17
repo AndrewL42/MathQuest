@@ -3,14 +3,14 @@
 
 switch(room) {
 	case (room_levelThree):
-		global.xx = 572;
-		global.yy = 155;
+		global.xx = 555;
+		global.yy = 158;
 		audio_stop_all();
 		room_goto(room_space);
 		break;
 	case (room_levelSix):
-		global.xx = 575;
-		global.yy = 160;
+		global.xx = 565;
+		global.yy = 165;
 		audio_stop_all();
 		room_goto(room_pirate);
 		break;
