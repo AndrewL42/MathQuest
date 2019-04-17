@@ -12,14 +12,13 @@
         "f0c63578-87d9-455a-9a5c-dabb59959d87",
         "5dbd6c68-fd56-4ac0-8173-e7356a082069",
         "d5a6a123-a59d-4064-9ed1-e9605972ff07",
-        "e88efba6-eef1-42c8-bf9b-3bd1632778bc",
         "37ba4d96-e0ba-480d-96d9-0fddbf149a3b",
         "8e961ed9-1278-4ed2-bb61-bdcdba5536dd",
         "87ee31f3-c04b-4dcc-8511-80a3bb757541",
         "4b1f809d-2440-4cc2-aa71-1645b28d6181",
         "77d4cd27-b262-449a-a85a-2ca273401bff",
         "a0a62fd8-14ab-4550-bde5-942c40ffac83",
-        "f17791da-7c53-4af0-a7c8-2031b5fa2cf3"
+        "1ef96d02-fd47-452b-b412-5d4ea700fdbb"
     ],
     "filterType": "GMObject",
     "folderName": "Buttons",
