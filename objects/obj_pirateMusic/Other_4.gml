@@ -1,2 +1,2 @@
 /// @description Music Start
-audio_play_sound(sound_pirate, 10, true);
+audio_play_sound(sound_evilplaceholder, 10, true);
