@@ -14,9 +14,10 @@ use a switch to check which room we're in to decide the math.
 
 
 if (timer >= 30) {
+	global.levnum = 2
 	switch(room) {
 		case (room_space):
-			if (global.cleared1 == true) {
+			if (scr_check_lock() == true) {
 				room_goto(room_levelTwo);
 				audio_stop_sound(sound_walk);
 				//audio_play_sound(sound_challenge, 10, true);
@@ -24,7 +25,7 @@ if (timer >= 30) {
 				break;
 			}
 		case (room_pirate):
-			if (global.cleared4 == true) {
+			if (scr_check_lock() == true) {
 				room_goto(room_levelFive);
 				audio_stop_sound(sound_walk);
 				//audio_play_sound(sound_challenge, 10, true);
@@ -32,7 +33,7 @@ if (timer >= 30) {
 				break;
 			}
 		case (room_evil):
-			if (global.cleared7 == true) {
+			if (scr_check_lock() == true) {
 				room_goto(room_levelEight);
 				audio_stop_sound(sound_walk);
 				//audio_play_sound(sound_challenge, 10, true);

@@ -1,5 +1,5 @@
 /// @description Insert description here
-
+/*
 if (global.current == "room_levelOne") {
 	global.cleared1 = true;
 }
@@ -18,3 +18,4 @@ if (global.previous == "room_levelFive") {
 if (global.previous == "room_levelSix") {
 	global.cleared6 = true;
 }
+*/

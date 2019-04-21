@@ -5,6 +5,7 @@
 if (timer >= 30) {
 	switch(room) {
 		case (room_overworld):
+		global.levname = "NEG"
 			room_goto(room_pirate);
 			global.xx = 190;
 			global.yy = 192;

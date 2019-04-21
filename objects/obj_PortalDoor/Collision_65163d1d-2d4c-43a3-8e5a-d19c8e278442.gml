@@ -4,6 +4,7 @@
 if (timer >= 30) {
 	switch(room) {
 		case (room_overworld):
+			global.levname = "POS"
 			room_goto(room_space);
 			global.xx = 190;
 			global.yy = 192;

@@ -32,13 +32,14 @@ timer++
 
 
 if (timer >= 30) {
+	global.levnum = 4
 	switch(room) {
 		case (room_overworld):
 			room_goto(room_placement);
 			global.count = 0;
 			break;
 		case (room_space):
-			if (global.cleared3 == true) {
+			if (scr_check_lock() == true) {
 				room_goto(room_challengeAdd);
 				audio_stop_sound(sound_walk);
 				audio_play_sound(sound_challenge, 10, true);
@@ -47,7 +48,7 @@ if (timer >= 30) {
 				break;
 		}
 		case (room_pirate):
-			if (global.cleared6 == true) {
+			if (scr_check_lock() == true) {
 				room_goto(room_challengeSub);
 				audio_stop_sound(sound_walk);
 				audio_play_sound(sound_challenge, 10, true);
@@ -56,7 +57,7 @@ if (timer >= 30) {
 				break;
 		}
 		case (room_evil):
-			if (global.cleared9 == true) {
+			if (scr_check_lock() == true) {
 				room_goto(room_challengeSubAdd);
 				audio_stop_sound(sound_walk);
 				audio_play_sound(sound_challenge, 10, true);

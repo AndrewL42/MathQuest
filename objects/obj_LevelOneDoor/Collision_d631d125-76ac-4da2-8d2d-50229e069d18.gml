@@ -32,6 +32,7 @@ timer++
 
 
 if (timer >= 30) {
+	global.levnum = 1
 	switch(room) {
 		case (room_space):
 			room_goto(room_levelOne);

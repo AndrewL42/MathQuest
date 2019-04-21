@@ -5,6 +5,7 @@
 if (timer >= 30) {
 	switch(room) {
 		case (room_overworld):
+			global.levname = "MIX"
 			room_goto(room_evil);
 			global.xx = 190;
 			global.yy = 192;

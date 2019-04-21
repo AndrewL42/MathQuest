@@ -1,28 +1,18 @@
 {
-    "id": "8bd20625-13be-4100-913e-5c4aa63b8d66",
+    "id": "f758862d-3376-4367-a88b-b2d78652ff1e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "door_evil",
+    "name": "obj_stupid",
     "eventList": [
         {
-            "id": "bffd484f-7cc0-4c41-9a7e-7d1b190abcaa",
+            "id": "6f686060-1dd3-4aba-8153-6e87d0bc10fb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8bd20625-13be-4100-913e-5c4aa63b8d66"
-        },
-        {
-            "id": "dae4d054-6615-41c6-b2dd-fdcb027d5fdb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "1bfdb1f7-9de7-4d0c-90c8-e80cbf12821b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "8bd20625-13be-4100-913e-5c4aa63b8d66"
+            "eventtype": 13,
+            "m_owner": "f758862d-3376-4367-a88b-b2d78652ff1e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9696b4ae-9c7c-4cd3-85a6-14b1382ed6b2",
+    "spriteId": "3455030a-16d1-4d8a-b1fd-f8c94dea6145",
     "visible": true
 }

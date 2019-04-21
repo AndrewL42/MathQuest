@@ -13,6 +13,7 @@ if (global.incorrect == true) {
 
 if (room != room_challengeAdd and room != room_challengeSub and room != room_challengeSubAdd and room != room_placement) {
 	if (global.questionsAnswered == 300) {
+		scr_progress_update()
 		room_goto(room_complete)	
 	}
 }

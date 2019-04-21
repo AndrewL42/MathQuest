@@ -9,6 +9,7 @@ if(g1 != -1 and global.first!=""){
 	global.name = global.first
 		
 	audio_play_sound(sound_click, 5, false);
+	scr_set_locks()
 	room_goto(room_overworld);
 }
 else if(global.first == ""){
