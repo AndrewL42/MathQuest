@@ -8,7 +8,7 @@ g1 = db_query_exec(q1)
 if(g1 != -1 and global.first!=""){
 	global.name = global.first
 	//audio_play_sound(sound_click, 5, false);
-	scr_set_locks()
+	scr_set_challenge_scores()
 	room_goto(room_overworld);
 }
 else if(global.first == ""){

@@ -11,7 +11,7 @@ g1 = db_query_exec(q1)
 if(g1 == -1 and global.last!=""){
 	global.name = global.last
 	db_record_create("students",[ ["name",global.name]]);
-	scr_set_locks()
+	scr_set_challenge_scores()
 	room_goto(room_overworld);
 }
 else if(global.last == ""){
