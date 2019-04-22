@@ -24,7 +24,7 @@ switch (room) {
 		}
 		
 draw_sprite(spr_TextBox, 0, x, y);
-if (room == room_levelFive or room == room_levelNine) {
+if (room == room_levelFive or room == room_levelNine or room == room_levelEight) {
 	draw_set_colour(c_black);
 } else {
 	draw_set_colour(c_white);
@@ -78,7 +78,8 @@ if (global.incorrect == true) {
 	}
 	else {
 		draw_set_colour(c_red);
-		draw_text_transformed(x + 10, y + 30,"Incorrect! Try again", 1, 1, 0);
+		draw_text_transformed(x + 10, y + 30,"Incorrect!", 1, 1, 0);
+		draw_text(x + 10,(y)+55,"The answer is: " + string(global.gameAnswer));
 		if (timeWait <= 0) {
 			global.incorrect = false
 			timeWait = 30

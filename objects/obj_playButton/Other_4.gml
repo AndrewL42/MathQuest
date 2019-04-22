@@ -6,6 +6,8 @@ global.highScore = 0;
 global.addScore = 0;
 global.subScore = 0;
 global.mixScore = 0; 
+global.count = 0;
+
 /*
 global.cleared1 = true;
 global.cleared2 = true;
