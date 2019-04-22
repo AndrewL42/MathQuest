@@ -37,20 +37,16 @@ if (timer >= 30) {
 		case (room_space):
 			room_goto(room_levelOne);
 			audio_stop_sound(sound_walk);
-			//audio_play_sound(sound_challenge, 10, true);
 			global.questionsAnswered = 0
 			break;
 		case (room_pirate):
 			room_goto(room_levelFour);
 			audio_stop_sound(sound_walk);
-			//audio_play_sound(sound_challenge, 10, true);
 			global.questionsAnswered = 0
 			break;
 		case (room_evil):
 			room_goto(room_levelSeven);
 			audio_stop_sound(sound_walk);
-			//audio_play_sound(Sound_challenge,10,true);
-			// if you need this still, I put it here aswell. :3
 			global.questionAnswered = 0
 			break;
 	timer = 0;
