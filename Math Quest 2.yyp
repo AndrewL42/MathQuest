@@ -1551,6 +1551,14 @@
             }
         },
         {
+            "Key": "8c146558-4d26-465f-860d-f270ab4adff1",
+            "Value": {
+                "id": "3575f1d5-853e-4f08-9faf-d7a38d1e4682",
+                "resourcePath": "scripts\\scr_update_challenge_progress\\scr_update_challenge_progress.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8c430d6f-6301-46c7-80ca-b1f9f441c155",
             "Value": {
                 "id": "56ba74fd-509b-4db0-8e09-e4bdc92b2ffd",
@@ -2871,7 +2879,8 @@
         "31e02847-7b99-4465-b4b9-9c85c15337fe",
         "db6e2c66-cd7a-4679-831f-3e5bfe126a5a",
         "10467cb6-9269-41b2-8b0b-39f6982df1be",
-        "9847176d-d530-4e21-bc9b-decdb285997b"
+        "9847176d-d530-4e21-bc9b-decdb285997b",
+        "8c146558-4d26-465f-860d-f270ab4adff1"
     ],
     "tutorial": ""
 }

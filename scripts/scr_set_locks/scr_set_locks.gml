@@ -81,9 +81,6 @@ if( grid != -1){
 		}
 	}
 }*/
-global.addScore = 0;
-global.subScore = 0;
-global.mixScore = 0;
 /*
 print("hi")
 print(global.cleared1)
