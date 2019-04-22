@@ -79,7 +79,7 @@ switch (room) {
 		randomThree = irandom_range(0, 4);
 
 		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
-		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
+		+ irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
 		- irandom_range(global.questionY - randomTwo, global.questionZ + randomThree);
 
 		return answ
@@ -90,7 +90,7 @@ switch (room) {
 		randomThree = irandom_range(0, 4);
 
 		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
-		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
+		+ irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
 		- irandom_range(global.questionY - randomTwo, global.questionZ + randomThree);
 
 		return answ
@@ -101,7 +101,7 @@ switch (room) {
 		randomThree = irandom_range(0, 4);
 
 		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
-		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
+		+ irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
 		- irandom_range(global.questionY - randomTwo, global.questionZ + randomThree);
 
 		return answ
