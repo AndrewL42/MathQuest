@@ -3,8 +3,10 @@
 
 var bbox_side;
 
-moveX = (input_right - input_left) * global.player_speed;
-moveY = (input_down - input_up) * global.player_speed;
+script_execute(scr_movementcheck, sprToUse)
+
+moveX = (global.input_right - global.input_left) * global.player_speed;
+moveY = (global.input_down - global.input_up) * global.player_speed;
 
 if (moveX != 0) {
 	moveY = 0;

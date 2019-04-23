@@ -9,7 +9,7 @@ if(g1 != -1 and global.first!=""){
 	global.name = global.first
 	//audio_play_sound(sound_click, 5, false);
 	scr_set_challenge_scores()
-	room_goto(room_overworld);
+	room_goto(room_charselect);
 }
 else if(global.first == ""){
 	show_message("write your name in the text box")	
