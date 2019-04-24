@@ -1007,6 +1007,14 @@
             }
         },
         {
+            "Key": "4a5714ba-6747-464f-8f3f-2d2c5442c64c",
+            "Value": {
+                "id": "364ee433-a1dc-429c-a78a-9c0487615949",
+                "resourcePath": "rooms\\certroom\\certroom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4b1f809d-2440-4cc2-aa71-1645b28d6181",
             "Value": {
                 "id": "e6620b36-3615-4a65-a455-265db2f85277",
