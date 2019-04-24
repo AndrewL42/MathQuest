@@ -9,7 +9,7 @@ switch(room) {
 		break;
 	case (room_levelFive):
 		global.xx = 430;
-		global.yy = 165;
+		global.yy = 169;
 		audio_stop_all();
 		room_goto(room_pirate);
 		break;

@@ -5,7 +5,9 @@
 x = global.xx;
 y = global.yy;
 tilemap = layer_tilemap_get_id("Collision");
-input_left = false;
-input_right = false;
-input_up = false;
-input_down = false;
+global.input_left = false;
+global.input_right = false;
+global.input_up = false;
+global.input_down = false;
+
+sprToUse = object_get_sprite(obj_MalePlayer)

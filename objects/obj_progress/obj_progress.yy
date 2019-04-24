@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_progress",
     "eventList": [
-        
+        {
+            "id": "1fa62178-c25b-435e-896a-58a7558d2642",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "080e0e32-cf62-48c1-a1e7-0810b43f9f25"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
