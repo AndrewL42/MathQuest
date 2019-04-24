@@ -5,3 +5,5 @@ global.playerChar = ""
 
 text = ""
 
+initialCreate = true;
+
