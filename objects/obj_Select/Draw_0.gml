@@ -20,6 +20,14 @@ switch (global.playerChar) {
 	case ("builder"):
 		text = "You have chosen Sam"
 		break;
+		
+	case ("gnome"):
+		text = "Gnomes for the Gnome God!"
+		break;
+		
+	case ("lorax"):
+		text = "You now speak for the trees..."
+		break;
 
 }
 
