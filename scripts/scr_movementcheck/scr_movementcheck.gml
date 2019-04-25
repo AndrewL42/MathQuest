@@ -3,7 +3,7 @@
 
 // Check if the player is moving left
 if keyboard_check(vk_left) or keyboard_check(ord("A")) {
-	audio_play_sound(sound_walk, 2, true);
+	//audio_play_sound(sound_walk, 2, true);
 
 	switch (argument0){
 		case (spr_MaleDown):
@@ -15,6 +15,12 @@ if keyboard_check(vk_left) or keyboard_check(ord("A")) {
 		case (spr_FemaleDown):
 			sprite_index = spr_FemaleLeft
 			break;
+		case (spr_gnome):
+			sprite_index = spr_gnome
+			break;
+		case (spr_treeKeeper):
+			sprite_index = spr_treeKeeper
+			break;
 	}
 	global.input_left = true;
 } else {
@@ -24,7 +30,7 @@ if keyboard_check(vk_left) or keyboard_check(ord("A")) {
 
 // Check if the player is moving up
 if keyboard_check(vk_up) or keyboard_check(ord("W")) {
-	audio_play_sound(sound_walk, 2, true);
+	//audio_play_sound(sound_walk, 2, true);
 
 	switch (argument0){
 		case (spr_MaleDown):
@@ -36,6 +42,12 @@ if keyboard_check(vk_up) or keyboard_check(ord("W")) {
 		case (spr_FemaleDown):
 			sprite_index = spr_FemaleUp
 			break;
+		case (spr_gnome):
+			sprite_index = spr_gnome
+			break;
+		case (spr_treeKeeper):
+			sprite_index = spr_treeKeeper
+			break;
 	}
 	global.input_up = true;
 	
@@ -46,7 +58,7 @@ if keyboard_check(vk_up) or keyboard_check(ord("W")) {
 
 // Check if the player is moving right
 if keyboard_check(vk_right) or keyboard_check(ord("D")) {
-	audio_play_sound(sound_walk, 2, true);
+	//audio_play_sound(sound_walk, 2, true);
 
 	switch (argument0){
 		case (spr_MaleDown):
@@ -58,6 +70,12 @@ if keyboard_check(vk_right) or keyboard_check(ord("D")) {
 		case (spr_FemaleDown):
 			sprite_index = spr_FemaleRight
 			break;
+		case (spr_gnome):
+			sprite_index = spr_gnome
+			break;
+		case (spr_treeKeeper):
+			sprite_index = spr_treeKeeper
+			break;
 	}
 	global.input_right = true;
 	
@@ -68,7 +86,7 @@ if keyboard_check(vk_right) or keyboard_check(ord("D")) {
 
 // Check if the player is moving down
 if keyboard_check(vk_down) or keyboard_check(ord("S")) {
-	audio_play_sound(sound_walk, 2, true);
+	//audio_play_sound(sound_walk, 2, true);
 
 	switch (argument0){
 		case (spr_MaleDown):
@@ -79,6 +97,12 @@ if keyboard_check(vk_down) or keyboard_check(ord("S")) {
 			break;
 		case (spr_FemaleDown):
 			sprite_index = spr_FemaleDown
+			break;
+		case (spr_gnome):
+			sprite_index = spr_gnome
+			break;
+		case (spr_treeKeeper):
+			sprite_index = spr_treeKeeper
 			break;
 	}
 	global.input_down = true;
