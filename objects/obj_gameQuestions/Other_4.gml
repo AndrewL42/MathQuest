@@ -5,6 +5,8 @@ global.boxOne = 1
 global.boxTwo = 2
 global.boxThree = 3
 global.boxFour = 4
+global.textEnter = ""
+
 
 switch (room) {
 	case room_challengeAdd:
