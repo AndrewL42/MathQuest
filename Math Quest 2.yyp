@@ -1263,6 +1263,14 @@
             }
         },
         {
+            "Key": "586fab37-c61a-4a9c-b609-45a5a274f0e5",
+            "Value": {
+                "id": "390f8e8b-a3a9-479d-a569-e7a5eb6bcb65",
+                "resourcePath": "objects\\evillevel2box\\evillevel2box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a0a3f32-19ef-424f-bba7-a4aa45e1384f",
             "Value": {
                 "id": "5a00ca65-a212-4f3a-a581-ca59a2fcf359",
@@ -1423,6 +1431,14 @@
             }
         },
         {
+            "Key": "680a9abb-edf5-44e4-abc5-92a8fe0983cd",
+            "Value": {
+                "id": "17db3792-8ea9-479f-acf4-a8c959dce88f",
+                "resourcePath": "objects\\waterlevel1box\\waterlevel1box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68bf48e5-5451-4ae9-9015-d72d0bfd08f9",
             "Value": {
                 "id": "9ca41411-99db-4f09-bb6a-aace2bf8004e",
@@ -1452,6 +1468,14 @@
                 "id": "47aeb509-a199-45b6-bcad-d48621bc742e",
                 "resourcePath": "views\\6aec25ef-0403-4884-baf5-e932deb5af2a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6bf1794a-8ef1-480e-b951-e6ab0d94ab34",
+            "Value": {
+                "id": "17c1b5e2-15eb-4819-9dce-fea262fbe950",
+                "resourcePath": "objects\\waterlevel2box\\waterlevel2box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2519,6 +2543,14 @@
             }
         },
         {
+            "Key": "c5bbeb66-858a-40f1-b256-1ace85c22096",
+            "Value": {
+                "id": "ad25bea7-62e0-4352-993f-c410689176cd",
+                "resourcePath": "objects\\evillevel3box\\evillevel3box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c66e3f73-ce7d-4a16-848b-28b40f795383",
             "Value": {
                 "id": "54e735e7-2aa9-43a5-979d-0a77c232373c",
@@ -2847,6 +2879,14 @@
             }
         },
         {
+            "Key": "e573b85d-6a01-4e1d-a820-17fe01cd1a6e",
+            "Value": {
+                "id": "13ceefbc-83e7-4a4a-83b6-a2e07eae5523",
+                "resourcePath": "objects\\waterlevel3box\\waterlevel3box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e6a47a9c-9f15-4dc4-a16e-1eec70e49f21",
             "Value": {
                 "id": "0c2d608e-f1e1-48b7-93f8-25f74c74f9f5",
@@ -3108,6 +3148,14 @@
                 "id": "0b8944da-bac7-4e3c-bf95-a965b8dd0d54",
                 "resourcePath": "rooms\\rm_db_exp\\rm_db_exp.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fad80a6f-ab06-4ed7-9ba5-a00b11a26e25",
+            "Value": {
+                "id": "492a10d3-d816-4107-8f50-57830eefd7e8",
+                "resourcePath": "objects\\evillevel1box\\evillevel1box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
