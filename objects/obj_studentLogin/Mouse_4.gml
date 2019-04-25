@@ -1,7 +1,6 @@
 /// @description Get Password
 global.name = ""
 global.first = string_upper(global.first)
-print(global.first)
 var q1 = db_query_select("students",["name"]);
 db_cl_where(q1,db_op_eq,["name"],[global.first])
 g1 = db_query_exec(q1)
