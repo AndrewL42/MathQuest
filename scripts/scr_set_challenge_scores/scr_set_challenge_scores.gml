@@ -9,7 +9,7 @@ else{
 }
 	
 
-q2 = db_query_select("challenge",["id", "top_score"])
+q2 = db_query_select("challenge",["top_score"])
 db_cl_where(q2,db_op_eq,["name", "level_name"],[global.name,"NEG"]);
 r2 = db_query_exec(q2)
 if (r2 == -1){
@@ -19,7 +19,7 @@ else{
 	global.subScore = ds_grid_get(r2, 0, 0)
 }
 
-q3 = db_query_select("challenge",["id", "top_score"])
+q3 = db_query_select("challenge",["top_score"])
 db_cl_where(q3,db_op_eq,["name", "level_name"],[global.name,"MIX"]);
 r3 = db_query_exec(q3)
 if (r3 == -1){

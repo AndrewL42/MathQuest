@@ -42,7 +42,7 @@ if (timer >= 30) {
 			if (scr_check_lock() == true) {
 				room_goto(room_challengeAdd);
 				audio_stop_sound(sound_walk);
-				audio_play_sound(sound_challenge, 10, true);
+				//audio_play_sound(sound_challenge, 10, true);
 				global.count = 0;
 				global.start_timer = true;
 				break;
@@ -51,7 +51,7 @@ if (timer >= 30) {
 			if (scr_check_lock() == true) {
 				room_goto(room_challengeSub);
 				audio_stop_sound(sound_walk);
-				audio_play_sound(sound_challenge, 10, true);
+				//audio_play_sound(sound_challenge, 10, true);
 				global.count = 0;
 				global.start_timer = true;
 				break;
@@ -60,7 +60,7 @@ if (timer >= 30) {
 			if (scr_check_lock() == true) {
 				room_goto(room_challengeSubAdd);
 				audio_stop_sound(sound_walk);
-				audio_play_sound(sound_challenge, 10, true);
+				//audio_play_sound(sound_challenge, 10, true);
 				global.count = 0;
 				global.start_timer = true;
 				break;
