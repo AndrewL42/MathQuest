@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "4b44ed37-0a37-4aac-a9ef-73f65ac89c7a",
+            "Value": {
+                "id": "38e6eb26-6826-45cf-8970-3d8928d9e502",
+                "resourcePath": "objects\\scoreevil\\scoreevil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4b57be35-0c41-447c-afd0-a304c6f0db82",
             "Value": {
                 "id": "4307876f-142c-48d3-a61b-aba829bf0769",
@@ -1252,6 +1260,14 @@
                 "id": "9602d342-a959-4296-9a19-662950e6b125",
                 "resourcePath": "scripts\\db_record_build\\db_record_build.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5a0a3f32-19ef-424f-bba7-a4aa45e1384f",
+            "Value": {
+                "id": "5a00ca65-a212-4f3a-a581-ca59a2fcf359",
+                "resourcePath": "objects\\scoremars\\scoremars.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1516,6 +1532,14 @@
                 "id": "d9bda64c-ecc4-4e55-a81d-269b53bdfdaf",
                 "resourcePath": "scripts\\db_record_fetch\\db_record_fetch.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "712162b8-6f15-4d4b-afae-be17220985ee",
+            "Value": {
+                "id": "c0cc5d0e-8690-43c4-8da9-069481f437c8",
+                "resourcePath": "objects\\marslevel1box\\marslevel1box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2215,6 +2239,14 @@
             }
         },
         {
+            "Key": "b30cb8c4-950b-48ef-87e4-3a36c8b87fcd",
+            "Value": {
+                "id": "7f5a0894-9dfd-4949-b3ee-a9d3631cf24c",
+                "resourcePath": "objects\\marslevel2box\\marslevel2box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b38464ad-c230-4ff4-b9c8-5a0d7a10f406",
             "Value": {
                 "id": "519529fc-85ce-4367-bcd2-2446cdc0e644",
@@ -2244,6 +2276,14 @@
                 "id": "15ea91e1-3a05-499e-9c4a-2f765300a5d0",
                 "resourcePath": "sprites\\highscoremars\\highscoremars.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b5590dc5-07e0-430d-a3b0-807599fa0f15",
+            "Value": {
+                "id": "4bd98fac-bf05-4363-bc5c-9ed4e4434d86",
+                "resourcePath": "objects\\marslevel3box\\marslevel3box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2796,6 +2836,14 @@
                 "id": "a80ea268-4d1d-4958-95c8-f455f94821b5",
                 "resourcePath": "views\\e4916dd9-0c78-4800-bee5-d978c397bb33.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e50312bb-d4a6-4e6a-857c-4fafb3892863",
+            "Value": {
+                "id": "91a2205c-c3a6-4cb1-a7f3-6cf5cc2977fb",
+                "resourcePath": "objects\\scorewater\\scorewater.yy",
+                "resourceType": "GMObject"
             }
         },
         {
