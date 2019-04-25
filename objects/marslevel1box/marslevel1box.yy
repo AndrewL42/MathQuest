@@ -5,13 +5,13 @@
     "name": "marslevel1box",
     "eventList": [
         {
-            "id": "80210fd7-c2a1-4f51-b037-538d269a3b77",
+            "id": "9cc3274a-6164-49e0-bfa4-a6cd58ba5cf6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 13,
-            "eventtype": 9,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "712162b8-6f15-4d4b-afae-be17220985ee"
         }
     ],

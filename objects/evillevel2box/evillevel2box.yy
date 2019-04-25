@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "evillevel2box",
     "eventList": [
-        
+        {
+            "id": "f2d59f57-b3f0-44a8-875f-5de4d8be83ce",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "586fab37-c61a-4a9c-b609-45a5a274f0e5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
