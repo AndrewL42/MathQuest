@@ -53,23 +53,27 @@ switch (room) {
 
 		return answ
 		break;
+		
+		
 	case (room_levelFive):
-		randomOne = irandom_range(0, 5);
-		randomTwo = irandom_range(0, 4);
-
-		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
-		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo);
+		randomOne = irandom_range(-55, -30);
+		randomTwo = irandom_range(-15, 30);
+		
+		answ = irandom_range(global.questionX - randomOne, global.questionY - randomOne)
+		- irandom_range(global.questionX + randomTwo, global.questionY + randomTwo);
 
 		return answ
 		break;
+		
+		
 	case (room_levelSix):
-		randomOne = irandom_range(0, 5);
-		randomTwo = irandom_range(0, 5);
-		randomThree = irandom_range(0, 4);
+		randomOne = irandom_range(-50, -30);
+		randomTwo = irandom_range(-20, 10);
+		randomThree = irandom_range(-5, 2);
 
-		answ = irandom_range(global.questionX - randomOne, global.questionY + randomOne)
-		- irandom_range(global.questionX - randomTwo, global.questionY + randomTwo) 
-		- irandom_range(global.questionY - randomTwo, global.questionZ + randomThree);
+		answ = irandom_range(global.questionX - randomOne, global.questionY - randomOne)
+		- irandom_range(global.questionX + randomTwo, global.questionY + randomTwo) 
+		- irandom_range(global.questionY - randomThree, global.questionZ + randomThree);
 
 		return answ
 		break;
@@ -109,4 +113,23 @@ switch (room) {
 
 
 }
+
+
+/*
+		xSubAdd = choose(global.questionX + randomOne, global.questionX - randomOne,
+		global.questionX + randomTwo, global.questionX - randomTwo)
+		
+		ySubAdd = choose(global.questionY + randomOne, global.questionY - randomOne,
+		global.questionY + randomTwo, global.questionY - randomTwo)
+		
+		xSubAddSecond = choose(global.questionX + randomOne, global.questionX - randomOne,
+		global.questionX + randomTwo, global.questionX - randomTwo)
+		
+		ySubAddSecond = choose(global.questionY + randomOne, global.questionY - randomOne,
+		global.questionY + randomTwo, global.questionY - randomTwo)
+		*/
+
+
+
+
 

@@ -15,7 +15,8 @@ global.correctAnswer = false;
 */
 randomize() // to randomize the RNG
 
-global.placeQuestion = irandom_range(1, 150);
+global.placeQuestion = 0;
+global.placeGen = irandom_range(1, 3);
 global.questionX = 0;
 global.questionY = 0;
 global.questionZ = 0;

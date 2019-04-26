@@ -111,7 +111,7 @@ if keyboard_check(vk_down) or keyboard_check(ord("S")) {
 }
 
 if keyboard_check(vk_shift) {
-	global.player_speed = 2.5;
+	global.player_speed = 2.1;
 } else {
 	global.player_speed = 1.4;	
 }	

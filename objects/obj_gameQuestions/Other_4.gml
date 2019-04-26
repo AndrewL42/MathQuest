@@ -6,6 +6,7 @@ global.boxTwo = 2
 global.boxThree = 3
 global.boxFour = 4
 global.textEnter = ""
+global.placeGen = irandom_range(1, 3);
 
 
 switch (room) {
@@ -65,6 +66,7 @@ switch (room) {
 		global.gameAnswer = global.questionX - global.questionY
 		global.correctAnswer = false;
 		break;
+		
 	case room_levelFive:
 		global.questionX = irandom_range(50, 100);
 		global.questionY = irandom_range(1, 50);
@@ -73,6 +75,7 @@ switch (room) {
 		global.gameAnswer = global.questionX - global.questionY
 		global.correctAnswer = false;
 		break;
+		
 	case room_levelSix:
 		global.questionX = irandom_range(70, 100);
 		global.questionY = irandom_range(11, 60);
@@ -109,6 +112,33 @@ switch (room) {
 		global.gameAnswer = global.questionX + global.questionY - global.questionZ
 		global.correctAnswer = false;
 		break;
+		
+	case room_placement:
+		// Ones place
+		if (global.placeGen == 1) {
+			show_debug_message("IN PLACEGEN 1")
+			global.placeQuestion = irandom_range(0, 9);
+			show_debug_message(global.placeQuestion)
+			global.gameAnswer = 1
+		}
+		// Tens place
+		else if (global.placeGen == 2) {
+			show_debug_message("IN PLACEGEN 2")
+			global.placeQuestion = irandom_range(10, 99);
+			show_debug_message(global.placeQuestion)
+			global.gameAnswer = 2
+		}
+		
+		// Hundreds place
+		else if (global.placeGen == 3) {
+			show_debug_message("IN PLACEGEN 3")
+			global.placeQuestion = irandom_range(100, 999);
+			show_debug_message(global.placeQuestion)
+			global.gameAnswer = 3
+		}
+		global.correctAnswer = false;
+		break;
+		/*
 	case room_placement:
 		if (global.placeQuestion <= 9) {
 			global.gameAnswer = 1;
@@ -121,6 +151,7 @@ switch (room) {
 		}
 		global.correctAnswer = false;
 		break;
+		*/
 }
 
 
