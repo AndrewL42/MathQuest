@@ -20,6 +20,3 @@ if (r1 != -1){
 	} 
 	
 }
-else{
-	show_message("no students")
-}

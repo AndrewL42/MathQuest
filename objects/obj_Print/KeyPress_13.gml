@@ -1,4 +1,5 @@
-/// @description Click
+/// @description Insert description here
+// You can write your code in this editor
 if (room == room_progress) {
 	global.name = ""
 	global.search = string_upper(global.search)
@@ -8,12 +9,8 @@ if (room == room_progress) {
 	if(g1 != -1 and global.search!=""){
 		global.name = global.search
 		
-		audio_play_sound(sound_click, 5, false);
+		//audio_play_sound(sound_click, 5, false);
 		scr_set_challenge_scores()	
 		room_goto(certroom);
 	}
-} else {
-	audio_play_sound(sound_click, 5, false);
-	scr_set_challenge_scores()	
-	room_goto(certroom);
-}
+} 

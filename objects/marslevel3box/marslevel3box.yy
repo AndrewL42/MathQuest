@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "marslevel3box",
     "eventList": [
-        
+        {
+            "id": "0a2c53f6-ff22-418c-a336-2a5e376a4931",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b5590dc5-07e0-430d-a3b0-807599fa0f15"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

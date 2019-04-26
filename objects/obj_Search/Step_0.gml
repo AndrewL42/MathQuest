@@ -1,6 +1,6 @@
 /// @description Take input
-global.password = "";
+global.search = "";
 
 scr_inputbox_restrict("!","[");
 
-scr_inputbox_input();
+scr_search_input();

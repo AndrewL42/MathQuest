@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "waterlevel2box",
     "eventList": [
-        
+        {
+            "id": "df9a1749-0a2f-44cf-ba47-079cc83500d0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6bf1794a-8ef1-480e-b951-e6ab0d94ab34"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

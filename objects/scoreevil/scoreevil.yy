@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "scoreevil",
     "eventList": [
-        
+        {
+            "id": "26517fac-5199-4924-8a6a-1695ac3792df",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "4b44ed37-0a37-4aac-a9ef-73f65ac89c7a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
